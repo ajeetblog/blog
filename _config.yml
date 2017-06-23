@@ -1,5 +1,5 @@
-title:            Blog Title
-description:      Describe your website here.
+title:           Azure365
+description:     Cloud and DevOps.
 
 # put your disqus here
 disqus_shortname:
@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://aronbordin.com/neo-hpstr-jekyll-theme
+url: http://www.azure365.co.in
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -19,11 +19,7 @@ url: http://aronbordin.com/neo-hpstr-jekyll-theme
 # See the example
 menu:
   - title: 'Home'
-    url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
+    url: '/' 
   - title: 'Tags'
     url: '/tags'
   - title: 'Categories'
@@ -39,15 +35,15 @@ menu:
 
 # Owner/author information
 owner:
-  name:           Your name
-  site:           http://aronbordin.com
-  avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  name:           Ajeet Chouksey
+  site:           http://www.azure365.co.in
+  avatar:         images/ajeet.jpg
+  bio:            "Dynamic & techno-savvy Certified IT Professional with overall 10+ yrs. of well-honed experience as Tech Arch and SME in Azure Cloud (IaaS) and SharePoint Admin. I have experience in various features, capabilities of Azure services and able to identify tradeoffs and make decisions for designing public and hybrid cloud solutions. Defining the appropriate infrastructure and platform solutions to meet the required functional, operational, and deployment requirements through the solution lifecycle."
+  email:          ajeetchouksey27@hotmail.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  twitter: ajeet_chouksey # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github: AjeetChouksey
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -56,11 +52,11 @@ twitter:
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
   - title: "github"
-    url: "https://github.com/aron-bordin"
+    url: "https://github.com/ajeetchouksey"
   - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
+    url: "https://www.linkedin.com/in/ajeet-chouksey-bb365138/"
   - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+    url: ""
 
 # Background image to be tiled on all pages
 background:
