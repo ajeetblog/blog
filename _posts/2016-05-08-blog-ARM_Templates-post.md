@@ -7,8 +7,6 @@ tags: [post, code, highlighting, blog]
 categories: [intro]
 ---
 
-# Azure ARM Templates
-
 ###
 Enterprises have started adoption of Cloud, whether its  Private, Public or Hybrid cloud model. To get the advantage of on-demand, Agility and DevOps, clients are now not only demanding rapid, scalable, reusable, innovative cloud base solutions for their applications but also looking for consistent, test driven Infrastructure and configuration automation solutions.
 
