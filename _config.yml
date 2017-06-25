@@ -5,7 +5,7 @@ description:     Cloud and DevOps.
 disqus_shortname:
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:             images/logo.png # logo visible in the topbar
+logo:            images/logo.png # logo visible in the topbar
 excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
@@ -41,7 +41,7 @@ owner:
   bio:            "Dynamic & techno-savvy Certified IT Professional with overall 10+ yrs. of well-honed experience as Tech Arch and SME in Azure Cloud (IaaS) and SharePoint Admin. I have experience in various features, capabilities of Azure services and able to identify tradeoffs and make decisions for designing public and hybrid cloud solutions. Defining the appropriate infrastructure and platform solutions to meet the required functional, operational, and deployment requirements through the solution lifecycle."
   email:          ajeetchouksey27@hotmail.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: ajeet_chouksey # if no twitter in this config, the twitter follow button will be removed
+  twitter: ajeetchouksey27 # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
   github: AjeetChouksey
 
