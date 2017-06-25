@@ -1,70 +1,48 @@
 ---
 layout: post
-title: Syntax Highlighting Post
-description: "Demo post displaying the various ways of highlighting code in Markdown."
+title: Azure ARM Templates
+description: "Azure ARM Templates"
 modified: 2016-12-01
-tags: [sample post, code, highlighting]
+tags: [post, code, highlighting, blog]
 categories: [intro]
 ---
 
-Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.[^1]
+# Azure ARM Templates
 
-[^1]: <http://en.wikipedia.org/wiki/Syntax_highlighting>
+###
+Enterprises have started adoption of Cloud, whether its  Private, Public or Hybrid cloud model. To get the advantage of on-demand, Agility and DevOps, clients are now not only demanding rapid, scalable, reusable, innovative cloud base solutions for their applications but also looking for consistent, test driven Infrastructure and configuration automation solutions.
 
-### Rouge Code Blocks
+There are lot of tools available in market which support Infrastructure and Configuration ‘As-Code’ as well as follow other DevOps culture and principals’ to support these requirements.
 
-To modify styling and highlight colors edit `/_sass/_rouge.scss`.
+Azure new architecture bring the concept of Azure Resource Manager and Group. Azure Resource Manager enables you to work with the resources in your solution as a group. Azure Resource groups are logical containers that are used to group resources such as virtual machines, storage accounts, databases, websites, and others that share a common life cycle.
+Azure Resource Manager Templates consists of JSON and expressions which you can use to construct values for deployment.
 
-{% highlight css %}
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-{% endhighlight %}
+In an Azure Resource Manager template, you can define the resources to deploy for a solution, and specify parameters as well as variables that enable you to input values for different environments. The template consists of JSON and expressions which you can use to construct values for deployment. 
 
-{% highlight html %}
-{% raw %}
-<nav class="pagination" role="navigation">
-    {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-    {% endif %}
-    {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-    {% endif %}
-</nav><!-- /.pagination -->
-{% endraw %}
-{% endhighlight %}
+Resources deployed in parallel – Define the resource which can be deployed in parallel.
+Resource dependency constraints enforced- Define dependencies for the resources which can only be provisioned after one or more other resources. Example: VM, before creating a VM you must have at least a storage account and a Virtual Network. 
+Storage and Virtual Network can be provisioned parallel but VM needs to wait until both are not provisioned.
+Template language provides some built-in functions – this help to manipulate the strings.
+By using the ARM you can
+ Ensure Idempotency
+Simplify Orchestration
+ Simplify Roll-back
+Provide Cross Resource Configuration and update support
 
-{% highlight ruby %}
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-{% endhighlight %}
+        Azure Resource Templates are:
+Source files, can be checked-in
+Specifies resources and dependencies
+Support parameterized input/output
 
-### Standard Code Block
+Resource Manager provides several benefits
+          You can deploy, manage, and monitor all of the resources for your solution as a group, rather than handling these resources individually.
+         You can repeatedly deploy your solution throughout the development lifecycle and have confidence your resources are deployed in a consistent state.
+         You can use declarative templates to define your deployment.
+         You can define the dependencies between resources so they are deployed in the correct order.
+        You can apply access control to all services in your resource group because Role-Based Access Control (RBAC) is natively integrated into the management platform.
+        You can apply tags to resources to logically organize all of the resources in your subscription.
+Tags:
 
-    {% raw %}
-    <nav class="pagination" role="navigation">
-        {% if page.previous %}
-            <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-        {% endif %}
-        {% if page.next %}
-            <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-        {% endif %}
-    </nav><!-- /.pagination -->
-    {% endraw %}
+Tags help you to view billing for your organization by viewing the rolled-up costs for the entire group or for a group of resources sharing the same tag.
+
+in upcoming post, I will talk more concept about ARM template and how to create them.
