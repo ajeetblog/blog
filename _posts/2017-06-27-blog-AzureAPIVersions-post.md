@@ -10,6 +10,7 @@ categories: [azure]
 ### Get list of Azure RM API versions
 
  {% highlight powershell %}
+ ###### Resource API version play an important role in ARM template. Below script help to get list of available API versions for various providers. if you remove if statement, script will list the API versions for all the provider.
    $listProviderNameSpace=Get-AzureRmResourceProvider -ListAvailable
    foreach($provideNameSpace in $listProviderNameSpace.ProviderNamespace)
     {
