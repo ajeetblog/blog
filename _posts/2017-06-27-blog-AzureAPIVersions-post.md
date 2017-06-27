@@ -8,6 +8,7 @@ categories: [azure]
 ---
 
 # Get list of Azure RM API versions
+
  {% raw %}
    $listProviderNameSpace=Get-AzureRmResourceProvider -ListAvailable
    foreach($provideNameSpace in $listProviderNameSpace.ProviderNamespace)
