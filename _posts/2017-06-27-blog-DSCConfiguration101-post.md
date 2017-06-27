@@ -7,7 +7,6 @@ tags: [post, code, blog]
 categories: [dsc]
 ---
 
-### DSC Configuration 101
 
 {% highlight powershell %}
 #DSC Configuration
@@ -33,10 +32,6 @@ categories: [dsc]
 
   #GET DSC Local Configuration Manager
   Get-DSCLocalConfigurationManager 
-
-
-
-
 
 #---------DSC Configuration to Install Windows Feature---------#
 
