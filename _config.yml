@@ -5,7 +5,7 @@ description:     Cloud and DevOps.
 disqus_shortname:
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:            images/logo.png # logo visible in the topbar
+logo:            # images/logo.png # logo visible in the topbar
 excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
@@ -27,11 +27,7 @@ menu:
     type: 'categories'
   - title: 'Favorites'
     url: '#'
-    submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
+   
 
 # Owner/author information
 owner:
