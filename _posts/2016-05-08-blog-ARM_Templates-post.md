@@ -21,16 +21,17 @@ Resources deployed in parallel – Define the resource which can be deployed in 
 Resource dependency constraints enforced- Define dependencies for the resources which can only be provisioned after one or more other resources. Example: VM, before creating a VM you must have at least a storage account and a Virtual Network. 
 Storage and Virtual Network can be provisioned parallel but VM needs to wait until both are not provisioned.
 Template language provides some built-in functions – this help to manipulate the strings.
-By using the ARM you can
- Ensure Idempotency
-Simplify Orchestration
- Simplify Roll-back
-Provide Cross Resource Configuration and update support
 
-        Azure Resource Templates are:
-Source files, can be checked-in
-Specifies resources and dependencies
-Support parameterized input/output
+By using the ARM you can
+        Ensure Idempotency
+        Simplify Orchestration
+        Simplify Roll-back
+        Provide Cross Resource Configuration and update support
+
+Azure Resource Templates are:
+        Source files, can be checked-in
+        Specifies resources and dependencies
+        Support parameterized input/output
 
 Resource Manager provides several benefits
           You can deploy, manage, and monitor all of the resources for your solution as a group, rather than handling these resources individually.
