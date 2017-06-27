@@ -7,15 +7,7 @@ tags: [post, code, blog]
 categories: [azure]
 ---
 
-# Get list of Azure RM API versions
-{% highlight css %}
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-
-{% endhighlight %}
+### Get list of Azure RM API versions
 
  {% highlight powershell %}
    $listProviderNameSpace=Get-AzureRmResourceProvider -ListAvailable
