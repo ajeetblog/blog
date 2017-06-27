@@ -8,8 +8,16 @@ categories: [azure]
 ---
 
 # Get list of Azure RM API versions
+{% highlight css %}
+#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
 
- {% raw %}
+{% endhighlight %}
+
+ {% highlight powershell %}
    $listProviderNameSpace=Get-AzureRmResourceProvider -ListAvailable
    foreach($provideNameSpace in $listProviderNameSpace.ProviderNamespace)
     {
@@ -24,4 +32,4 @@ categories: [azure]
             }
         }
    }
- {% endraw %}
+{% endhighlight %}
