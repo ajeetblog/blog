@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 title: DSC Configuration 101
 description: "DSC Configuration 101"
 modified: 2016-12-01
