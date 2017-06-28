@@ -6,5 +6,7 @@ modified: 2016-12-01
 tags: [post, code]
 categories: [azure]
 ---
+ 
+ 
 
 [See complete code](https://github.com/AjeetChouksey/armresources/blob/master/network/azure365.vnet.json)
