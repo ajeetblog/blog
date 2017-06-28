@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: Azure API Versions
 description: "Azure API Versions"
 modified: 2016-12-01

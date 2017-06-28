@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: VSTS 101
 description: "VSTS 101"
 modified: 2016-12-01
