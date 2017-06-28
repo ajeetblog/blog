@@ -2,8 +2,7 @@ title:           Azure365
 description:     Cloud and DevOps.
 
 # put your disqus here
-disqus_shortname: @ajeetchouksey
-comments: true
+disqus_shortname: http://disqus.com/by/ajeetchouksey 
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:            #images/logo.png # logo visible in the topbar
