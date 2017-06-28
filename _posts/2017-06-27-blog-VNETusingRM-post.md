@@ -1,0 +1,9 @@
+---
+layout: post
+title: VNET provisioning using ARM
+description: "VNET provisioning using ARM"
+modified: 2016-12-01
+tags: [post, code]
+categories: [azure]
+---
+
