@@ -4,7 +4,7 @@ title: VSTS 101
 description: "VSTS 101"
 modified: 2016-12-01
 tags: [post, code, blog]
-categories: [devosp, vsts]
+categories: [devops]
 ---
 
 
