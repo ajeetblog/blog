@@ -8,3 +8,4 @@ categories: [dsc, azure]
 ---
 
 
+J
