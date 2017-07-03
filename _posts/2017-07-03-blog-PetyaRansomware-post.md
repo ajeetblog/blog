@@ -24,7 +24,7 @@ Windows Defender, System Center Endpoint Protection, and Forefront Endpoint Prot
 •	Threat definition version: 1.247.197.0
 •	Version created on: 12:04:25 PM : Tuesday, June 27 2017
 •	Last Update: 12:04:25 PM : Tuesday, June 27 2017
-In addition, the free Microsoft Safety Scanner http://www.microsoft.com/security/scanner/ is designed to detect this threat as well as many others.
+In addition, the free [Microsoft Safety Scanner] (http://www.microsoft.com/security/scanner/) is designed to detect this threat as well as many others.
 Those with a solution from an antivirus provider other than Microsoft should check with that company.
 Recommendations
  
@@ -33,15 +33,19 @@ Three specific steps customers can take to mitigate against new ransomware:
 2.	Ensure you have the latest AV Signatures from your preferred AV vendor
 3.	Do not open email/attachments from unknown/untrusted sources
 Note:  these are good security defense-in-depth recommendations that may prevent being infected by this ransomware, but these steps alone do not ensure against infection. 
+
 #### Additional Resources
  
-•	[The Microsoft Security Tech Center](https://technet.microsoft.com/en-us/security/default) 
-•	[The Microsoft Security Update Guide] (http://aka.ms/securityupdateguide) 
+	[The Microsoft Security Tech Center](https://technet.microsoft.com/en-us/security/default) 
+	[The Microsoft Security Update Guide] (http://aka.ms/securityupdateguide) 
+
 #### More Information
 When new information is available that we can share, we will send a new security alert. 
 Regarding Information Consistency
+
 We strive to provide you with accurate information in static (this mail) and dynamic (web-based) content. Microsoft’s security content posted to the web is occasionally updated to reflect late-breaking information. If this results in an inconsistency between the information here and the information in Microsoft’s web-based security content, the information in Microsoft’s web-based security content is authoritative.
 [https://blogs.technet.microsoft.com/mmpc/2017/06/27/new-ransomware-old-techniques-petya-adds-worm-capabilities/](https://blogs.technet.microsoft.com/mmpc/2017/06/27/new-ransomware-old-techniques-petya-adds-worm-capabilities/)
+
 If you have any questions regarding this alert, please contact your Technical Account Manager (TAM)/Service Delivery Manager (SDM).
 Thank you,
 Team Microsoft
