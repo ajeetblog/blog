@@ -3,8 +3,8 @@ layout: post
 title: Azure API Versions
 description: "Azure API Versions"
 modified: 2016-12-01
-tags: [post, code, blog]
-categories: [azure]
+tags: [ARM, PowerShell]
+categories: [Azure]
 ---
 
 ### Get list of Azure RM API versions
