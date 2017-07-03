@@ -13,6 +13,6 @@ The Azure Virtual Network service enables you to securely connect Azure resource
 
 ### PowerShell
 
-[See complete code](https://github.com/ajeetnewit/resources/blob/master/network/azure365.vnet.json)
+[See complete code](https://github.com/AjeetChouksey/resources/blob/master/network/azure365.vnet.json)
 
 [See Azure documentation](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
