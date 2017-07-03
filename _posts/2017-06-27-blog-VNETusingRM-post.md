@@ -3,7 +3,7 @@ layout: post
 title: VNET provisioning using ARM
 description: "VNET provisioning using ARM"
 modified: 2016-12-01
-tags: [ARM, VNET]
+tags: [VNET]
 categories: [Azure]
 ---
 ### Virtual Network
