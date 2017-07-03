@@ -21,7 +21,7 @@ Windows Defender, System Center Endpoint Protection, and Forefront Endpoint Prot
 •	Threat definition version: 1.247.197.0
 •	Version created on: 12:04:25 PM : Tuesday, June 27 2017
 •	Last Update: 12:04:25 PM : Tuesday, June 27 2017
-In addition, the free [Microsoft Safety Scanner] (http://www.microsoft.com/security/scanner/) is designed to detect this threat as well as many others.
+In addition, the free [Microsoft Safety Scanner](http://www.microsoft.com/security/scanner/) is designed to detect this threat as well as many others.
 Those with a solution from an antivirus provider other than Microsoft should check with that company.
 Recommendations
  
