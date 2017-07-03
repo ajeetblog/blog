@@ -3,7 +3,7 @@ layout: post
 title: Azure API Versions
 description: "Azure API Versions"
 modified: 2016-12-01
-tags: [ARM, PowerShell]
+tags: [PowerShell]
 categories: [Azure]
 ---
 
