@@ -36,9 +36,9 @@ Note:  these are good security defense-in-depth recommendations that may prevent
 
 #### Additional Resources
  
-	[https://technet.microsoft.com/en-us/security/default](https://technet.microsoft.com/en-us/security/default) 
+	[https://technet.microsoft.com/en-us/security/default]  (https://technet.microsoft.com/en-us/security/default) 
     
-	[http://aka.ms/securityupdateguide](http://aka.ms/securityupdateguide) 
+	[http://aka.ms/securityupdateguide] (http://aka.ms/securityupdateguide) 
 
 #### More Information
 When new information is available that we can share, we will send a new security alert. 
