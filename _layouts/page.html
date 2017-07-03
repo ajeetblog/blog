@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include head.html %}
+<meta name="google-site-verification" content="GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI" />
 </head>
 
 <body id="page">
@@ -22,7 +23,8 @@
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
     </div><!-- /.entry-content -->
-    {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+    {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread">
+      </section><!-- /#disqus_thread -->{% endif %}
   </article>
 </div><!-- /#main -->
 

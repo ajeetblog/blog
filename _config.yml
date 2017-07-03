@@ -2,7 +2,7 @@ title:           Azure365
 description:     Cloud and DevOps.
 
 # put your disqus here
-disqus_shortname:
+disqus_shortname: azure365
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:            #images/logo.png # logo visible in the topbar
@@ -58,8 +58,8 @@ social:
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
+google_analytics: UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
