@@ -7,7 +7,7 @@ tags: [VSTS]
 categories: [DevOps]
 ---
 
-
+{% include tags.html %}
 Visual Studio Online or Visual Studio Team Service (VSTS) is now known as Team Service is SaaS version of Team Foundation Server. More or less it's provide all the functionality which is available in TFS with some additional functionality which support Cloud based deployment.
 
 Features I like most are
