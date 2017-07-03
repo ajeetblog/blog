@@ -2,7 +2,7 @@
 layout: home
 title: Blog Categories
 description: "An archive of posts sorted by category."
-comments: true
+comments: false
 ---
 
 {% capture site_cats %}{% for cat in site.categories %}{{ cat | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
