@@ -6,9 +6,9 @@ modified: 2016-12-01
 tags: [VSTS]
 categories: [DevOps]
 ---
-<div class="entry-meta">
-         <span class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags#{{ tag }}" title="Pages tagged {{ tag }}" class="tag"><span class="term">{{ tag }}</span></a>{% unless forloop.last %}{% endunless %}{% endfor %}</span>
-</div>
+
+        
+
 Visual Studio Online or Visual Studio Team Service (VSTS) is now known as Team Service is SaaS version of Team Foundation Server. More or less it's provide all the functionality which is available in TFS with some additional functionality which support Cloud based deployment.
 
 Features I like most are
