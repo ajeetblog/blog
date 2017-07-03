@@ -3,7 +3,7 @@ layout: post
 title: VSTS 101
 description: "VSTS 101"
 modified: 2016-12-01
-tags: [archive]
+tags: [vsts]
 categories: [devops]
 ---
 
