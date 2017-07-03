@@ -32,9 +32,10 @@ Three specific steps customers can take to mitigate against new ransomware:
 Note:  these are good security defense-in-depth recommendations that may prevent being infected by this ransomware, but these steps alone do not ensure against infection. 
 
 #### Additional Resources
-1. [The Microsoft Security Tech Center](https://technet.microsoft.com/en-us/security/default)
+[The Microsoft Security Tech Center](https://technet.microsoft.com/en-us/security/default)
 
-2. [The Microsoft Security Update Guide](http://aka.ms/securityupdateguide)     	
+[The Microsoft Security Update Guide](http://aka.ms/securityupdateguide)     
+	
 
 #### More Information
 When new information is available that we can share, we will send a new security alert. 
