@@ -35,9 +35,9 @@ owner:
   site:           http://www.azure365.co.in
   avatar:         images/ajeet.jpg
   bio:            "Dynamic & techno-savvy Certified IT Professional with overall 10+ yrs. of well-honed experience as Tech Arch and SME in Azure Cloud (IaaS) and SharePoint Admin. I have experience in various features, capabilities of Azure services and able to identify tradeoffs and make decisions for designing public and hybrid cloud solutions. Defining the appropriate infrastructure and platform solutions to meet the required functional, operational, and deployment requirements through the solution lifecycle."
-  email:          ajeetchouksey27@hotmail.com
+  email:          ajeetnewit@outlook.com
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: ajeetchouksey27 # if no twitter in this config, the twitter follow button will be removed
+  twitter: ajeetnewit # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
   github: AjeetChouksey
 
@@ -48,7 +48,7 @@ twitter:
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
   - title: "github"
-    url: "https://github.com/ajeetchouksey"
+    url: "https://github.com/ajeetnewit"
   - title: "linkedin"
     url: "https://www.linkedin.com/in/ajeet-chouksey-bb365138/"
   - title: "youtube"
