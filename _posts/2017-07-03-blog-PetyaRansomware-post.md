@@ -36,15 +36,16 @@ Note:  these are good security defense-in-depth recommendations that may prevent
 
 #### Additional Resources
  
-	(https://technet.microsoft.com/en-us/security/default) 
+	[https://technet.microsoft.com/en-us/security/default](https://technet.microsoft.com/en-us/security/default) 
     
-	(http://aka.ms/securityupdateguide) 
+	[http://aka.ms/securityupdateguide](http://aka.ms/securityupdateguide) 
 
 #### More Information
 When new information is available that we can share, we will send a new security alert. 
 Regarding Information Consistency
 
 We strive to provide you with accurate information in static (this mail) and dynamic (web-based) content. Microsoft’s security content posted to the web is occasionally updated to reflect late-breaking information. If this results in an inconsistency between the information here and the information in Microsoft’s web-based security content, the information in Microsoft’s web-based security content is authoritative.
+
 [new-ransomware-old-techniques-petya-adds-worm-capabilities](https://blogs.technet.microsoft.com/mmpc/2017/06/27/new-ransomware-old-techniques-petya-adds-worm-capabilities/)
 
 If you have any questions regarding this alert, please contact your Technical Account Manager (TAM)/Service Delivery Manager (SDM).
