@@ -44,7 +44,6 @@ We strive to provide you with accurate information in static (this mail) and dyn
 
 [new-ransomware-old-techniques-petya-adds-worm-capabilities](https://blogs.technet.microsoft.com/mmpc/2017/06/27/new-ransomware-old-techniques-petya-adds-worm-capabilities/)
 
-
 If you have any questions regarding this alert, please contact your Technical Account Manager (TAM)/Service Delivery Manager (SDM).
 
 Thank you,
