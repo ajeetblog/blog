@@ -52,7 +52,7 @@ Following script block shows how to create SQL server with database using Azure 
                  --sample-name AdventureWorksLT   \
                  --service-objective S0
 {% endhighlight %} 
- #### You can list all the SQL Server as formatted output (tsv, json, jsonc, table)
+#### You can list all the SQL Server as formatted output (tsv, json, jsonc, table)
  {% highlight powershell %}
          az  sql db list -g $myResourceGroup   -s $servername  -o jsonc
 {% endhighlight %}
