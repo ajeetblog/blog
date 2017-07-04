@@ -17,7 +17,6 @@ categories: [Azure]
         -r (or --subnet-cidr). Network mask in CIDR format for subnet.
         -l (or --location). Azure region where the VNet will be created.
 
-Learning Azure CLI is pretty simple specially if you are comfort with PowerShell. Following script block shows how to create SQL server with database using Azure CLI
 {% highlight powershell %}
 # Create a resource group
             az group create   --name $myResourceGroup   --location $location
