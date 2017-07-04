@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Azure SQL provisionig using CLI
-description: "Azure SQL provisionig using CLI"
+title: Azure VNET provisionig using CLI
+description: "Azure VNET provisionig using CLI"
 modified: 2017-07-04
 tags: [VNET, CLI, 70-533]
 categories: [Azure]
