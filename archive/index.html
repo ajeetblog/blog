@@ -1,0 +1,34 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+public: true
+nocomments: true
+---
+<div class="home">
+  <h1 class="page-heading">Archive</h1>
+
+  <ul class="post-list">
+	<h3><b>This year's posts</b></h3>
+	{%for post in site.posts %}
+		{% unless post.next %}
+			<ul class="this">
+				{% else %}
+				{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+				{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+			{% if year != nyear %}
+				</ul>
+				<h3><b>{{ post.date | date: '%Y' }}</b></h3>
+				<ul class="past">
+			{% endif %}
+		{% endunless %}
+		{% assign user = site.data.authors | where: "author", post.author %} 
+	
+		<li><time>{{ post.date | date:"%d %b" }}</time>&nbsp;&nbsp;&nbsp;<a href="{{ post.url }}">{{ post.title }}</a> 
+		{% for author in user %}
+		- {{author.name}}
+		{% endfor %}
+		</li>
+  {% endfor %}
+  </ul>
+</div>

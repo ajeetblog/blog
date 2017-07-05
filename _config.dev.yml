@@ -1,0 +1,36 @@
+# Site settings
+title: Cloud and DevOps
+url: "http://127.0.0.1:4000"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+#description: >
+#  Geeky ramblings on DevOps, ALM, TFS, VisualStudio, VSTS, VSCode, Test Automation, .NET, WPF and PowerShell
+
+# Your information
+#see _data\authors.yml
+excerpt_separator: <!--more-->
+google_analytics: ABCD
+production: false
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+disqus_shortname: azure365   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /:categories/:title
+markdown: kramdown
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+ - jekyll-redirect-from
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

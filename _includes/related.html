@@ -1,0 +1,23 @@
+<h2>Related Posts</h2>
+{% assign posts_list = "" | split: "|" %}
+
+{% if page.tags %}
+  {% for each_tag in page.tags %}
+    {% for each_post in site.tags[each_tag] %}
+      {% if each_post.title != page.title %}
+        {% assign posts_list = posts_list | push: each_post %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% assign posts_list = posts_list | uniq %}
+{% else %}
+  {% assign posts_list = site.posts %}
+{% endif %}
+
+<ul>
+  {% for post in posts_list limit:5 %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

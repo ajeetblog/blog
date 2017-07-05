@@ -1,0 +1,101 @@
+<div class="col-box">
+    <div class="col-box-title">We are</div>
+    {% for member in site.data.authors %}
+    <div id="mainbox">
+        <div class="card">
+            <img class="profile-img" src="{{member.avatar}}"
+                alt="" />
+                
+            <h1>{{ member.name }}</h1></br>
+                <table class="noborder-table">
+                    <tr>
+                        <td>
+                            {% if member.twitter %}
+                            <a href="https://www.twitter.com/{{ member.twitter }}" title="Twitter" target="_blank"><img src="/images/social/twitter-20x20.png" alt="twitter" class="tilt"></img>
+                            </a>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if member.linkedin %}
+                            <a href="{{ member.linkedin }}" title="Linkedin" target="_blank"><img src="/images/social/linkedin-20x20.png" alt="linkedin" class="tilt"></img>
+                            </a>
+                            {% endif %}
+                        </td>
+                        <td>
+
+                            <a href="http://feeds.feedburner.com/visualstudiogeeks/otas"><img src="/images/social/rss-20x20.png" alt="rss" class="tilt"></img>
+                            </a>
+                        </td>
+                        <td>
+                            {% if member.github %}
+                            <a href="{{ member.github }}" title="GitHub" target="_blank"><img src="/images/social/github-20x20.png" alt="github" class="tilt"></img>
+                            </a>
+                            {% elsif member.wordpress %}
+                            <a href="{{ member.wordpress }}" title="Wordpress" target="_blank"><img src="/images/social/wordpress-20x20.png" alt="wordpress" class="tilt"></img>
+                            </a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            {% if member.mvpid %}
+                            <a href="https://mvp.microsoft.com/en-us/PublicProfile/{{ member.mvpid }}" title="MVP" target="_blank">
+                                <img src="/images/social/mvp-181x74.png" alt="mvp"></img>
+                            </a
+                            {% endif %} 
+                        </td>
+                    </tr>
+
+                </table>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<div class="col-box">
+
+    <div class="col-box-title">Subscribe via Email</div>
+    <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify"
+        method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=visualstudiogeeks/otas', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+        <p>Enter your email address:</p>
+        <p><input type="text" style="width:140px" name="email" /></p><input type="hidden" value="visualstudiogeeks/otas" name="uri"
+        /><input type="hidden" name="loc" value="en_US" /><input type="submit" value="Subscribe" />
+        <p>Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p>
+    </form>
+</div>
+<div class="col-box">
+    <div class="col-box-title">Recent Posts</div>
+    <ul class="post-list">
+        {% for post in site.posts limit:8 %}
+        <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% assign posts_list = "" | split: "|" %}
+
+{% if page.tags %}
+  {% for each_tag in page.tags %}
+    {% for each_post in site.tags[each_tag] %}
+      {% if each_post.title != page.title %}
+        {% assign posts_list = posts_list | push: each_post %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  {% assign posts_list = posts_list | uniq %}
+{% else %}
+  {% assign posts_list = site.posts %}
+{% endif %}
+
+<div class="col-box">
+    <div class="col-box-title">Related Posts</div>
+    <ul class="post-list">
+       {% for post in posts_list limit:5 %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+    </ul>
+</div>
+<div class="col-box post-toc hide">
+    <div class="col-box-title">TOC</div>
+</div>

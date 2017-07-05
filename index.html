@@ -1,40 +1,49 @@
 ---
-layout: home
-title: "Cloud and DevOps Blog"
-description: "Welcome to the Cloud and DevOps..."
-tags: [blog]
-comments: true
+layout: default
 ---
 
-{% for post in paginator.posts %}
-<article class="hentry">
-  <header>
-   
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span><span class="author vcard"><span class="fn"><a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a></span></span>
-      {% if site.reading_time %}
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
-        Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
-      </span><!-- /.entry-reading-time -->
-      {% endif %}
-    </div><!-- /.entry-meta -->
-    {% if post.link %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
-    {% else %}
-      <h1 class="entry-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
-    {% endif %}
-  </header>
-  <div class="entry-content">
-      {{ post.excerpt }}
-      {% if post.content contains "<!-- more -->" %}
-          <div align="center">
-              <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn btn-info">Continue Reading ...</a></div>
-          </div>
-      {% endif %}
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-{% endfor %}
+<div class="home">
+  <a class="rss-link" href="http://feeds.feedburner.com/visualstudiogeeks/otas">RSS</a><br/>
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
+          {% assign user = site.data.authors | where: "author", post.author %}
+          {% if post.author %} • {% for author in user %} {{ author.name }}{% endfor %}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}
+        </p>
+        <p class="post-meta">
+          {% for tag in post.tags %}
+      <a class="tag" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
+      {% endfor %}
+        </p>
+        <!--<div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>-->
 
-{% include pagination.html %}
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+          <p>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
+          </p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">PREV</a>
+  {% else %}
+    <span class="previous">PREV</span>
+  {% endif %}
+  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">NEXT</a>
+  {% else %}
+    <span class="next ">NEXT</span>
+  {% endif %}
+</div>
+
+</div>
