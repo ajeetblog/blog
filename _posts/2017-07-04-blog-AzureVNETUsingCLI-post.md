@@ -9,13 +9,13 @@ categories: [Azure]
 
 #### The Azure CLI 2.0 is Azure's new command-line experience for managing Azure resources. You can use it in your browser with Azure Cloud Shell, or you can install it on macOS, Linux, and Windows and run it from the command line.
 
-        --vnet. Name of the VNet to be created. 
-        -e (or --address-space). VNet address space.
-        -i (or -cidr). Network mask in CIDR format.
-        -n (or --subnet-name). Name of the first subnet.
-        -p (or --subnet-start-ip). Starting IP address for subnet, or subnet address space.
-        -r (or --subnet-cidr). Network mask in CIDR format for subnet.
-        -l (or --location). Azure region where the VNet will be created.
+   *     --vnet. Name of the VNet to be created. 
+   *     -e or --address-space. VNet address space.
+   *    -i or -cidr. Network mask in CIDR format.
+   *   -n or --subnet-name. Name of the first subnet.
+   *   -p or --subnet-start-ip. Starting IP address for subnet, or subnet address space.
+   *   -r or --subnet-cidr. Network mask in CIDR format for subnet.
+   *   -l or --location. Azure region where the VNet will be created.
 
 {% highlight powershell %}
 # Create a resource group
