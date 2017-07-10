@@ -19,10 +19,9 @@ layout: default
   
   <article class="post-content">
     {{ content }}
-    <a id="author"></a>
-    {% include related.html %}
-    
-    {% include authorintro.html %}
+    <a id="author">  {% include authorintro.html %}</a>
+    {% include related.html %}    
+  
   </article>
   
   {% include comment.html %}
