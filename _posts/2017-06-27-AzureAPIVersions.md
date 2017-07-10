@@ -5,6 +5,7 @@ description: "Azure API Versions"
 modified: 2016-12-01
 tags: [PowerShell]
 categories: [Azure]
+author: Ajeet
 ---
 
 ### Get list of Azure RM API versions

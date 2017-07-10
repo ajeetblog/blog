@@ -5,6 +5,7 @@ description: "VNET provisioning using ARM"
 modified: 2016-12-01
 tags: [VNET]
 categories: [Azure]
+author: Ajeet
 ---
 ### Virtual Network
 The Azure Virtual Network service enables you to securely connect Azure resources to each other with virtual networks (VNets). A VNet is a representation of your own network in the cloud. A VNet is a logical isolation of the Azure cloud dedicated to your subscription. You can also connect VNets to your on-premises network.

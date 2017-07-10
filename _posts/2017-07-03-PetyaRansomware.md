@@ -5,6 +5,7 @@ description: "Guidance Concerning Petya Ransomware"
 modified: 2017-07-03
 tags: [Ransomware]
 categories: [Azure]
+author: Ajeet
 ---
 Would like Share email recevied from Mirosoft today. Hope it will help.
 

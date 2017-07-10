@@ -5,6 +5,7 @@ description: "DSC Configuration 101"
 modified: 2016-12-01
 tags: [DSC, Configuration Managment]
 categories: [DevOps]
+author: Ajeet
 ---
 
 

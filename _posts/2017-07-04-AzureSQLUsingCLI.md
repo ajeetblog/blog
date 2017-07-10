@@ -5,6 +5,7 @@ description: "Azure SQL provisionig using CLI"
 modified: 2017-07-04
 tags: [Azure SQL, CLI, 70-533]
 categories: [Azure]
+author: Ajeet
 thumb: images/thumb-icon-ajeet.jpg    #place thumbnail (70x70)
 ---
  
