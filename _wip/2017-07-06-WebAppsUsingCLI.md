@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Azure Hybrid Networking
-description: "Azure Hybrid Networking"
+title: Azure WebApps using CLI
+description: "Azure WebApps using CLI"
 modified: 2016-12-01
 tags: [WebApps, CLI]
 categories: [Azure]
