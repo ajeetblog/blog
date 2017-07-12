@@ -39,13 +39,23 @@ The template consists of JSON and expressions which you can use to construct val
 *   Which values you want to pass in during deployment, and which values you want to define directly in the template
 *   Whether you need to return values from the deployment
 
+**Azure Resource Manager Can**:	
+*   Ensure Idempotency 
+*   Simplify Orchestration
+*   Simplify Roll-back
+*   Provide Cross Resource Configuration and update support
+
+**Azure Resource Templates are**:
+*   Source files, can be checked-in
+*   Specifies resources and dependencies
+*   Support parameterized input/output
 
 If you are beginner, lets go step by step. I always recommand to start with the Azure Portal and try to understand how it works. I am assuming you already have basic knowledge on Azure and Infrastrcture.
  
 ### ARM JSON Template Strcuture
 ```JSON
     {
-    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {  },
     "variables": {  },
@@ -53,10 +63,12 @@ If you are beginner, lets go step by step. I always recommand to start with the 
     "outputs": {  }
     }
 ```
-#### parameters:
-#### variables:
-#### resources:
-#### outputs:
+*   schema: Location of the JSON schema file that describes the version of the template language. You should use the URL shown above.
+*   contentVersion: Version of the template (such as 1.0.0.0). You can provide any value for this element. When deploying resources using the template, this value can be used to make sure that the right template is being used.
+*    parameters: Values that are provided when deployment is executed to customize resource deployment.
+*    variables: Values that are used as JSON fragments in the template to simplify template language expressions.
+*    resources: Resource types that are deployed or updated in a resource group.
+*   outputs: Values that are returned after deployment.
 
 ### Let's Start
  1.  Login to [https://portal.azure.com](https://portal.azure.com)
