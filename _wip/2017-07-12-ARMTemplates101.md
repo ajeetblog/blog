@@ -19,7 +19,7 @@ Azure ASM  (classic) is based on XML whereas Azure RM is based on JSON. JSON is 
 *  Azure Resource Manager: Enables you to work with the resources in your solution as a group. 
 *  Resource groups: are logical containers that are used to group resources such as virtual machines, storage accounts, databases, websites, and others that share a common life cycle.
 
-#### Benifits
+### Benifits
 *   We can deploy, manage, and monitor all of the resources for our solution as a group, rather than handling these resources individually.
 *   We can repeatedly deploy solution throughout the development lifecycle and have confidence resources will be deployed in a consistent state. 
 *   We can use declarative templates to define deployment.
@@ -30,13 +30,14 @@ Azure ASM  (classic) is based on XML whereas Azure RM is based on JSON. JSON is 
 
 We can create a template (in JSON format) that defines the infrastructure and configuration of our Azure solution. By using a template, we can repeatedly deploy  solution throughout its lifecycle and have confidence your resources are deployed in a consistent state. 
 The template consists of JSON and expressions which you can use to construct values for your deployment.
+
 **Considrations**:
-    *   Which resources types you need to deploy
-    *   Where those resources will reside
-    *   Which version of the resource provider API you will use when deploying the resource
-    *   Whether any of the resources must be deployed after other resources
-    *   Which values you want to pass in during deployment, and which values you want to define directly in the template
-    *   Whether you need to return values from the deployment
+*   Which resources types you need to deploy
+*   Where those resources will reside
+*   Which version of the resource provider API you will use when deploying the resource
+*   Whether any of the resources must be deployed after other resources
+*   Which values you want to pass in during deployment, and which values you want to define directly in the template
+*   Whether you need to return values from the deployment
 
 
 If you are beginner, lets go step by step. I always recommand to start with the Azure Portal and try to understand how it works. I am assuming you already have basic knowledge on Azure and Infrastrcture.
