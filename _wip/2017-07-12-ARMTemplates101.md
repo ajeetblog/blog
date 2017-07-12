@@ -45,8 +45,7 @@ If you are beginner, lets go step by step. I always recommand to start with the 
  1.  Login to [https://portal.azure.com](https://portal.azure.com)
 
 
-### Strcuture
-#### parameters: in this section we 
+### ARM JSON Template Strcuture
 ```JSON
     {
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
@@ -57,4 +56,9 @@ If you are beginner, lets go step by step. I always recommand to start with the 
     "outputs": {  }
     }
 ```
+#### parameters:
+#### variables:
+#### resources:
+#### outputs:
+
 ### Let's Start
