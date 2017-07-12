@@ -14,7 +14,30 @@ We have started Azure automation ~3yrs back. I use Azure classic PowerShell to p
 With the introduction of Azure Resource Manager model life become much easier. New model not only provide much more granul control over design and managment but it also come with the JSON base template deployment. 
 Azure ASM  (classic) is based on XML whereas Azure RM is based on JSON. JSON is easy to understand by the developer, infra guys and power users.  
 
-We can create a template (in JSON format) that defines the infrastructure and configuration of your Azure solution. By using a template, we can repeatedly deploy your solution throughout its lifecycle and have confidence your resources are deployed in a consistent state. 
+### Terminology
+
+*  Azure Resource Manager: Enables you to work with the resources in your solution as a group. 
+*  Resource groups: are logical containers that are used to group resources such as virtual machines, storage accounts, databases, websites, and others that share a common life cycle.
+
+#### Benifits
+*   We can deploy, manage, and monitor all of the resources for our solution as a group, rather than handling these resources individually.
+*   We can repeatedly deploy solution throughout the development lifecycle and have confidence resources will be deployed in a consistent state. 
+*   We can use declarative templates to define deployment.
+*   We can define the dependencies between resources so they are deployed in the correct order.
+*   We can apply access control to all services in resource group because Role-Based Access Control (RBAC) is natively integrated into the management platform.
+*   We can apply tags to resources to logically organize all of the resources in our subscription.
+*   We can clarify billing for organization by viewing the rolled-up costs for the entire group or for a group of resources sharing the same tag.
+
+We can create a template (in JSON format) that defines the infrastructure and configuration of our Azure solution. By using a template, we can repeatedly deploy  solution throughout its lifecycle and have confidence your resources are deployed in a consistent state. 
+The template consists of JSON and expressions which you can use to construct values for your deployment.
+**Considrations**:
+    *   Which resources types you need to deploy
+    *   Where those resources will reside
+    *   Which version of the resource provider API you will use when deploying the resource
+    *   Whether any of the resources must be deployed after other resources
+    *   Which values you want to pass in during deployment, and which values you want to define directly in the template
+    *   Whether you need to return values from the deployment
+
 
 If you are beginner, lets go step by step. I always recommand to start with the Azure Portal and try to understand how it works. I am assuming you already have basic knowledge on Azure and Infrastrcture.
  
@@ -22,6 +45,7 @@ If you are beginner, lets go step by step. I always recommand to start with the 
 
 
 ### Strcuture
+#### parameters: in this section we 
 ```JSON
     {
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
