@@ -49,6 +49,7 @@ Understand the CIDR notation
 
 ### ARM Template
 understand template
+  
    {% highlight powershel %}
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
@@ -98,10 +99,9 @@ understand template
     ]
 }
    {% endhighlight %}
+   
 Reusable template
 
 [See complete code - vnet resource](https://github.com/AjeetChouksey/resources/blob/master/network/azure365.vnet.json)
-
 [FAQ](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq)
-
 [See Azure documentation](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
