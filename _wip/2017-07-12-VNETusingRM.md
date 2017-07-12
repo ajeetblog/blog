@@ -20,25 +20,32 @@ Understand the CIDR notation
 
 ### PowerShell
 
-{% highlight powershell %}
-New-AzureRmResourceGroup -Name TestRG -Location centralus
-{% endhighlight %}
-{% highlight powershell %}
-New-AzureRmVirtualNetwork -ResourceGroupName TestRG -Name TestVNet `
--AddressPrefix 192.168.0.0/16 -Location centralus
-{% endhighlight %}
-$vnet = Get-AzureRmVirtualNetwork -ResourceGroupName TestRG -Name TestVNet
-{% highlight powershell %}
-Add-AzureRmVirtualNetworkSubnetConfig -Name FrontEnd `
--VirtualNetwork $vnet -AddressPrefix 192.168.1.0/24
-{% endhighlight %}
-{% highlight powershell %}
-Add-AzureRmVirtualNetworkSubnetConfig -Name BackEnd `
--VirtualNetwork $vnet -AddressPrefix 192.168.2.0/24
-{% endhighlight %}
-{% highlight powershell %}
-Set-AzureRmVirtualNetwork -VirtualNetwork $vnet
-{% endhighlight %}
+        {% highlight powershell %}
+        New-AzureRmResourceGroup -Name TestRG -Location centralus
+        {% endhighlight %}
+
+        {% highlight powershell %}
+        New-AzureRmVirtualNetwork -ResourceGroupName TestRG -Name TestVNet `
+        -AddressPrefix 192.168.0.0/16 -Location centralus
+        {% endhighlight %}
+
+        {% highlight powershell %}
+        $vnet = Get-AzureRmVirtualNetwork -ResourceGroupName TestRG -Name TestVNet
+        {% endhighlight %}
+
+        {% highlight powershell %}
+        Add-AzureRmVirtualNetworkSubnetConfig -Name FrontEnd `
+        -VirtualNetwork $vnet -AddressPrefix 192.168.1.0/24
+        {% endhighlight %}
+
+        {% highlight powershell %}
+        Add-AzureRmVirtualNetworkSubnetConfig -Name BackEnd `
+        -VirtualNetwork $vnet -AddressPrefix 192.168.2.0/24
+        {% endhighlight %}
+
+        {% highlight powershell %}
+        Set-AzureRmVirtualNetwork -VirtualNetwork $vnet
+        {% endhighlight %}
 
 ### ARM Template
 understand template
@@ -46,5 +53,7 @@ understand template
 Reusable template
 
 [See complete code - vnet resource](https://github.com/AjeetChouksey/resources/blob/master/network/azure365.vnet.json)
+
 [FAQ](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-faq)
+
 [See Azure documentation](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)
