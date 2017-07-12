@@ -6,7 +6,7 @@
         .post-title {
         	font-size:2.5em;
         	font-weight: 400;
-            font-family: 'Candara', serif;
+            font-family: Candara, serif;
             color:#069;
         	margin: 0 -100px;
         	@include media-query($on-palm) {
