@@ -42,9 +42,6 @@ The template consists of JSON and expressions which you can use to construct val
 
 If you are beginner, lets go step by step. I always recommand to start with the Azure Portal and try to understand how it works. I am assuming you already have basic knowledge on Azure and Infrastrcture.
  
- 1.  Login to [https://portal.azure.com](https://portal.azure.com)
-
-
 ### ARM JSON Template Strcuture
 ```JSON
     {
@@ -62,3 +59,4 @@ If you are beginner, lets go step by step. I always recommand to start with the 
 #### outputs:
 
 ### Let's Start
+ 1.  Login to [https://portal.azure.com](https://portal.azure.com)
