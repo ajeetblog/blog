@@ -7,9 +7,9 @@ tags: [IaC]
 categories: [Azure]
 author: Ajeet
 ---
-With the introduction of Azure Resource Manager model life become much easier. New model not only provide much more granul control over design, deployment and managment but it also support the JSON base template deployment to support Infrastrcture-as-Code. Which is one of important pillar of DevOps.
-Diffrence between: Azure ASM v/s Azure RM 
-Azure ASM  (classic) is based on XML whereas Azure RM is based on JSON. JSON is easy to understand by the developer, infra guys and power users.  
+With the introduction of Azure Resource Manager model life become much easier. New model not only provide much more granul control over design, deployment and managment but it also providet the JSON base template deployment to support Infrastrcture-as-Code. Which is one of important pillar of DevOps.
+
+Azure ASM  (classic) is based on XML whereas Azure RM is based on JSON. 
 
 *  Azure Resource Manager: Enables you to work with the resources in your solution as a group. 
 *  Resource groups: are logical containers that are used to group resources such as virtual machines, storage accounts, databases, websites, and others that share a common life cycle.
