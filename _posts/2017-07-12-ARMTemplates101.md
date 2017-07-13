@@ -58,9 +58,9 @@ If you are beginner, lets go step by step. I always recommand to start with the 
     "outputs": {  }
     }
 ```
-*   schema: Location of the JSON schema file that describes the version of the template language. You should use the URL shown above.
-*   contentVersion: Version of the template (such as 1.0.0.0). You can provide any value for this element. When deploying resources using the template, this value can be used to make sure that the right template is being used.
-*    parameters: Values that are provided when deployment is executed to customize resource deployment.
-*    variables: Values that are used as JSON fragments in the template to simplify template language expressions.
-*    resources: Resource types that are deployed or updated in a resource group.
-*   outputs: Values that are returned after deployment.
+*   *schema*: Location of the JSON schema file that describes the version of the template language. You should use the URL shown above.
+*  *contentVersion*: Version of the template (such as 1.0.0.0). You can provide any value for this element. When deploying resources using the template, this value can be used to make sure that the right template is being used.
+*    *parameters*: Values that are provided when deployment is executed to customize resource deployment.
+*   *variables*: Values that are used as JSON fragments in the template to simplify template language expressions.
+*    *resources*: Resource types that are deployed or updated in a resource group.
+*   *outputs*: Values that are returned after deployment.
