@@ -1,0 +1,48 @@
+---
+layout: post
+title: PowerShell Desired State Configuration
+description: "PowerShell Desired State Configuration"
+modified: 2016-12-01
+tags: [DSC]
+categories: [Azure]
+author: Ajeet
+---
+*DSC*: use to deploy distributed heterogeneous configurations for software services and the environment in which these services run by giving declarative configuration. 
+
+            -   It’s cross platform
+            -   Distributed Heterogeneous Configuration Platform
+            -   Declarative configurations 
+
+New language Keywords to declaratively define Configurations that compile to Managed Object Format (MOF) DSC Providers to apply Configurations to Resources
+New Cmdlets to test, apply, and restore Configurations on demand Local Configuration Manager to maintain config and Pull updates DSC Service to host Configurations and Providers centrally for Pull
+
+*DSC* 
+            -   Enabling or disabling server roles and features
+            -   Managing registry settings
+            -   Managing files and directories
+            -   Starting, stopping, and managing processes and services
+            -   Managing groups and user accounts
+            -   Deploying new software
+            -   Managing environment variables
+            -   Running Windows PowerShell scripts
+            -   Fixing a configuration that has drifted away from the desired state
+            -   Discovering the actual configuration state on a given node
+
+*DSC Configuration Managment*
+            -   Simplifies configuration
+            -   Prevent configuration drifts
+            -   Flexible deployment options
+            -   Enable continuous deployment
+
+### Traditional script v/s DSC
+
+
+### DSC Components
+
+
+### Push v/s Pull
+    **Push**: This is who I am and here is my configuration. 
+    **Pull**: 	 This is who I am and give me my configuration.
+
+Push: In case of configuration update you need to again push the configuration.
+Pull: In case of configuration update you need to update the configuration in Pull server and generate the check sum. When the target server connect with the Pull server to check the configuration, Pull server will compare the check sum and if there is difference it will send the new configuration to target node.
