@@ -43,7 +43,7 @@ Extensions for Android Studio, Eclipse, IntelliJ, and all other JetBrains IDEs.
 
 **Web Hooks & API Integration** Build your own extensions using web hooks & REST APIs.
 
-### Let's Start
+## Let's Start
 Let's create a project in VSTS or Team Service.
 
 ![Go to Team Services](/images/posts/gitwithvsts/gitwithvsts1.JPG)
