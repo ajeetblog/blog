@@ -39,7 +39,7 @@ Let's create a project in VSTS or Team Service.
 
 ![](/images/posts/gitwithvsts/gitwithvsts1.JPG)
 
-![Create new project](/images/posts/gitwithvsts.gitwithvsts_createprj.JPG)
+![Create new project](/images/posts/gitwithvsts/gitwithvsts_createprj.JPG)
 
 Ensure that you choose git as version control. You have 3 option to choose work item process.
 **Agile**:  Choose Agile when your team uses Agile planning methods, including Scrum, and track development and test activities separately.
