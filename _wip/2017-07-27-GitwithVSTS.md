@@ -70,4 +70,4 @@ Once its done you can see the updated default page with README file and a nice d
 
 ![Create new project](/images/posts/gitwithvsts/dashboard.JPG)
 
-See related post for repos, workflow, branches, authentication and pull request.
+*See git related post for repos, workflow, branches, authentication and pull request.*
