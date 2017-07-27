@@ -8,7 +8,7 @@ categories: [DevOps]
 author: Ajeet
 ---
 
-VSTS or Team services off 2 types of version control
+VSTS or Team services offers 2 types of version control
 	1. Git
 	2. TFVC
 
