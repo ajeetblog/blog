@@ -43,13 +43,21 @@ Let's create a project in VSTS or Team Service.
 
 Ensure that you choose git as version control. You have 3 option to choose work item process.
 
-**Agile**:  Choose Agile when your team uses Agile planning methods, including Scrum, and track development and test activities separately.
-**CMMI**: Choose CMMI when your team follows more formal project methods that require a framework for process improvement.
+**Agile**:  Choose Agile when your team uses Agile planning methods, including Scrum, and track development and test activities separately.
+
+**CMMI**: Choose CMMI when your team follows more formal project methods that require a framework for process improvement.
+
 **Scrum**: Choose Scrum when your team practices Scrum. This process works great if you want to track product backlog items (PBIs) and bugs on the Kanban board, or break PBIs and bugs down into tasks on the task board. 
 
-![Create new project](/images/posts/gitwithvsts/defaultpage.JPG)
+Once your project is created you will be able to see project default page. In this page you can  see lot option, which we are going to use soon.
 
-![Create new project](/images/posts/gitwithvsts/defaultpage2.JPG)
+![Default page](/images/posts/gitwithvsts/defaultpage.JPG)
+
+Let's initialize the README file
+
+![README File](/images/posts/gitwithvsts/defaultpage2.JPG)
+
+Once its done you can see the updated default page with README file and a nice dashboard displaying  members,  activity, build and releases and work.
 
 ![Create new project](/images/posts/gitwithvsts/dashboard.JPG)
 
