@@ -3,7 +3,7 @@ layout: post
 title: Git with VSTS - Part 1
 description: "Git and VSTS"
 modified: 2017-07-27
-tags: [VSTS, Git, Configuration Management]
+tags: [VSTS, Git]
 categories: [DevOps]
 author: Ajeet
 ---
