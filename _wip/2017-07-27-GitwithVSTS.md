@@ -36,9 +36,15 @@ Build your own extensions using web hooks & REST APIs.
 
 ### Let's Start
 Let's create a project in VSTS or Team Service.
+
 ![](/images/posts/gitwithvsts/gitwithvsts1.JPG)
 
-![](/images/posts/gitwithvsts/gitwithvsts_createprj.JPG)
+![Create new project](/images/posts/gitwithvsts.gitwithvsts_createprj.JPG)
+
+Ensure that you choose git as version control. You have 3 option to choose work item process.
+**Agile**:  Choose Agile when your team uses Agile planning methods, including Scrum, and track development and test activities separately.
+**CMMI**: Choose CMMI when your team follows more formal project methods that require a framework for process improvement.
+**Scrum**: Choose Scrum when your team practices Scrum. This process works great if you want to track product backlog items (PBIs) and bugs on the Kanban board, or break PBIs and bugs down into tasks on the task board. 
 
 
 #### Create git repo using VSTS
