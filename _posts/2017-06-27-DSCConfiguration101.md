@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DSC Configuration 101
+title: PowerShell Desired State Configuration - Part 2
 description: "DSC Configuration 101"
 modified: 2016-12-01
 tags: [DSC, Configuration Managment]

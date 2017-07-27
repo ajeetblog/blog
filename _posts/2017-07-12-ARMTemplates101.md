@@ -50,7 +50,7 @@ If you are beginner, lets go step by step. I always recommand to start with the 
 ### ARM JSON Template Strcuture
 ```JSON
     {
-    "schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {  },
     "variables": {  },
