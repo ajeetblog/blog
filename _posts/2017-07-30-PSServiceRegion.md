@@ -1,7 +1,7 @@
 ---
 layout: post
-title: PowerShell to find service availablity across the region
-description: "PowerShell to find service availablity across the region"
+title: PowerShell to find service availablity across the regions
+description: "PowerShell to find service availablity across the regions"
 modified: 2017-07-30
 tags: [PowerShell]
 categories: [Azure]
