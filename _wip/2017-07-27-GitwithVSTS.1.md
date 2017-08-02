@@ -9,12 +9,13 @@ author: Ajeet
 ---
 
 Depending upon the requirement you can have one or more repo inside your project. You can create repos by using
-	1. Web (VSTS)
-	2. CLI
-	3. Visual Studio
-	4. IntelliJ
-	5. Xcode
-	6. Eclipse
+	
+	1. 	Web (VSTS)
+	2.	CLI
+	3.	Visual Studio
+	4.	IntelliJ
+	5. 	Xcode
+	6.	Eclipse
 	
 We will discuss first 3.
 
@@ -54,5 +55,3 @@ git remote add origin  <<URL>>
 ![](/images/posts/gitwithvsts/gitreporemote1.JPG)
 
 ## Create repo using Visual Studio
-
-## Cloning Repo
