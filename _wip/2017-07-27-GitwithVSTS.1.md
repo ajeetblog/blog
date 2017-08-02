@@ -45,6 +45,8 @@ Get remote repo URL
 
 ![](/images/posts/gitwithvsts/gitclonerepo1.JPG)
 
+Use following cmd to clone remote repo
+
 ```PowerShell
 git remote add origin  <<URL>>
 ```
