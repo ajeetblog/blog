@@ -54,4 +54,5 @@ git remote add origin  <<URL>>
 
 ![](/images/posts/gitwithvsts/gitreporemote1.JPG)
 
-## Create repo using Visual Studio
+
+*See git related post for  workflow, branches, authentication and pull request.*
