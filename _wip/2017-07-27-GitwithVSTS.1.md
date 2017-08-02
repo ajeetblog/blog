@@ -41,7 +41,7 @@ A new empty git repo is now created in your team project. 
 ```
 ## Cloning Repo
 
-![](/images/posts/gitwithvsts/repo2.JPG)
+![](/images/posts/gitwithvsts/gitreporemote1.JPG)
 
 ## Create repo using Visual Studio
 
