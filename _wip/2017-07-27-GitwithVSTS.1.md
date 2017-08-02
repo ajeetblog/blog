@@ -41,6 +41,14 @@ A new empty git repo is now created in your team project. 
 ```
 ## Cloning Repo
 
+Get remote repo URL
+
+![](/images/posts/gitwithvsts/gitclonerepo1.JPG)
+
+```PowerShell
+git remote add origin  <<URL>>
+```
+
 ![](/images/posts/gitwithvsts/gitreporemote1.JPG)
 
 ## Create repo using Visual Studio
