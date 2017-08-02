@@ -34,8 +34,8 @@ A new empty git repo is now created in your team project. 
 
 ## Create local repo using CLI
 
-	• [Download git for Windows] (https://git-scm.com/download/win)
-	• Open git bash or git cmd. Navigate to path where you would like to create repo.
+1.	 [Download git for Windows] (https://git-scm.com/download/win)
+2.	Open git bash or git cmd. Navigate to path where you would like to create repo.
 
 ```PowerShell
 	git init .
