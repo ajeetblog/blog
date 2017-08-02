@@ -7,13 +7,15 @@ tags: [VSTS, Git]
 categories: [DevOps]
 author: Ajeet
 ---
+
 Depending upon the requirement you can have one or more repo inside your project. You can create repos by using
-	1. Web (VSTS)
-	2. CLI
-	3. Visual Studio
-	4. IntelliJ
-	5. Xcode
-	6. Eclipse
+
+	1. 	Web (VSTS)
+	2.	 CLI
+	3.	 Visual Studio
+	4.	 IntelliJ
+	5. 	Xcode
+	6. 	Eclipse
 	
 We will discuss first 3.
 
@@ -28,4 +30,13 @@ Add a .gitignore file
 
 ![](/images/posts/gitwithvsts/repo2.JPG)
 
-*See git related post for repos, workflow, branches, authentication and pull request.*
+A new empty git repo is now created in your team project. 
+
+## Create repo using CLI
+Create a repository folder or use existing one. If you wa
+## Create repo using Visual Studio
+
+## Cloning Repo
+
+
+*See git related post for  workflow, branches, authentication and pull request.*
