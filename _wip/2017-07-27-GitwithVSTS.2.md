@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git with VSTS - Git Branching -1
+title: Git with VSTS - Part 3- Branching Fundamentals
 description: "Git and VSTS"
 modified: 2017-07-27
 tags: [VSTS, Git]
@@ -46,7 +46,7 @@ The Answer is a special pointer 'HEAD'. It always point to local branch that you
 Git checkout dev
 ```
 
-Above cmd will move point from currently on branch (in above case master) to dev.
+Above cmd will move pointer from currently on branch (in above case master) to dev.
 So what happen when you make a commit to your dev branch
 
 ```PowerShell
@@ -144,4 +144,31 @@ Once you are done, commit the changes.
 
 If you noticed here that your hotfix changes are not here in task1114 branch. So either you can merge from master to task1114 to get latest changes or you can merge your task1114 changes with master once your done with development.
 
-Run all your test to ensure that your deployment is production ready or not.
+## Merging fundamentals
+
+Let's continue above requirement. Our feature is completed and ready to merge into our master branch.
+
+```PowerShell
+git checkout master
+Git merge task1114
+```
+<<image>>
+
+If you noticed here that your hotfix changes are not here in task1114 branch. So either you can merge from master to task1114 to get latest changes or you can merge your task1114 changes with master once your done with development.
+
+So we have diverged here. Because the commit on the branch you’re on isn’t a direct ancestor of the branch you’re merging in, Git has to do some work. In this case, Git does a simple three-way merge, using the two snapshots pointed to by the branch tips and the common ancestor of the two.
+
+	1. Snapshot to merge in
+	2. Snapshot to merge into
+	3. Common Ancestor
+
+<<image>>
+
+
+*Git use merge commit*. Instead of moving pointer, git create a new snapshot that results from this three way merge and automatically creates a new commit that points to it. Merge commit is special in that it has more than one parent (#1 and #2).
+
+*Common Ancestor*: git automatically determines the best common ancestor to use it for merge base. Once you done with merging delete the branch.
+
+
+
+## Merging conflicts 
