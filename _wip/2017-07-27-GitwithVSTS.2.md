@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git with VSTS - Part 3- Branching Fundamentals
+title: Git with VSTS - Part 3- Branching and Merging Fundamentals
 description: "Git and VSTS"
 modified: 2017-07-27
 tags: [VSTS, Git]
@@ -182,3 +182,38 @@ Automatic merge failed; fix conflicts and then commit the result.
 ```
 
 Git hasn’t automatically created a new merge commit. It has paused the process while you resolve the conflict. If you want to see which files are unmerged at any point after a merge conflict, you can run git status:
+
+git mergetool is graphical tool to resolve these issues
+
+<<>>
+After you exit the merge tool, Git asks you if the merge was successful. If you tell the script that it was, it stages the file to mark it as resolved for you. You can run git status again to verify that all conflicts have been resolved:
+
+if you’re happy with that, and you verify that everything that had conflicts has been staged, you can type git commit to finalize the merge commit. The commit message by default looks something like this:
+
+<<>>
+
+## Branch management
+
+The git branch command does more than just create and delete branches. If you run it with no arguments, you get a simple listing of your current branches:
+$ git branch
+  iss53
+* master
+  testing
+Notice the * character that prefixes the master branch: it indicates the branch that you currently have checked out (i.e., the branch that HEAD points to). This means that if you commit at this point, the masterbranch will be moved forward with your new work. To see the last commit on each branch, you can run git branch -v:
+$ git branch -v
+  iss53   93b412c fix javascript issue
+* master  7a98805 Merge branch 'iss53'
+  testing 782fd34 add scott to the author list in the readmes
+The useful --merged and --no-merged options can filter this list to branches that you have or have not yet merged into the branch you’re currently on. To see which branches are already merged into the branch you’re on, you can run git branch --merged:
+$ git branch --merged
+  iss53
+* master
+Because you already merged in iss53 earlier, you see it in your list. Branches on this list without the * in front of them are generally fine to delete with git branch -d; you’ve already incorporated their work into another branch, so you’re not going to lose anything.
+To see all the branches that contain work you haven’t yet merged in, you can run git branch --no-merged:
+$ git branch --no-merged
+  testing
+This shows your other branch. Because it contains work that isn’t merged in yet, trying to delete it with git branch -d will fail:
+$ git branch -d testing
+error: The branch 'testing' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D testing'.
+If you really do want to delete the branch and lose that work, you can force it with -D, as the helpful message points out.
