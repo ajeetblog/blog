@@ -169,6 +169,16 @@ So we have diverged here. Because the commit on the branch you’re on isn’t a
 
 *Common Ancestor*: git automatically determines the best common ancestor to use it for merge base. Once you done with merging delete the branch.
 
-
-
 ## Merging conflicts 
+
+Consider a case where you have made some changes on the same part of the same file in two different branches.
+You will get a merge conflict.
+
+```PowerShell
+git merge iss53
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+Git hasn’t automatically created a new merge commit. It has paused the process while you resolve the conflict. If you want to see which files are unmerged at any point after a merge conflict, you can run git status:
