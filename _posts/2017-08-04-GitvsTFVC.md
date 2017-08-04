@@ -68,6 +68,7 @@ If you have existing TFVC repos, you can migrate them to Git repos using the git
 | Visual Studio compatibility     	| You can use all supported previous versions of Visual Studio.                                                                                                                                                                                                               	| Git is built in with Visual Studio 2017, 2015, and 2013.You can also use Visual Studio 2012 Update 4 (you must also install Visual Studio Tools for Git).                                                                                                                                                  	|
 | Web portal                      	| You can browse your codebase (including branches), view history, annotate and comment on changesets and shelvesets, and perform other tasks such as ad hoc downloading of selected parts of your codebase as a .zip file.                                                   	| You can browse your codebase, view history, compare branches, annotate and comment on commits, and perform other tasks such as ad hoc downloading of selected parts of your codebase as a .zip file.                                                                                                       	|
 
+
 ### Integration and migration
 
 | Capability       	| TFVC                   	| Git                    	|
