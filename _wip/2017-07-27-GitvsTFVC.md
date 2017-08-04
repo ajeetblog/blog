@@ -28,13 +28,8 @@ If you have existing TFVC repos, you can migrate them to Git repos using the git
 
 			Capability		|			TFVC	|				Git		|
 ----------------------------------------------------------------
-			Changes	|				Team members can concurrently change files on their dev machines. You upload (check-in) changesets to the server when you create them. You can upload your changes at any time. However, you might be interrupted by conflicts.
-
-You can change the comment of a changeset after you check it in. You can link changesets to work items and associate them with completed builds.	|				Team members can concurrently change files on their dev machines. You create commits on your dev machine independently of contributing them to the team. When you’re ready you must pull the latest commits before you upload (push) yours to the server. When you pull, you might be interrupted by conflicts.
-
-You can amend the latest local commit. You cannot change older commits. You can link commits to work items and associate them with completed builds.
-
-You can modify and combine local commits from the command prompt.		|
+			Changes	|				Team members can concurrently change files on their dev machines. You upload (check-in) changesets to the server when you create them. You can upload your changes at any time. However, you might be interrupted by conflicts. You can change the comment of a changeset after you check it in. You can link changesets to work items and associate them with completed builds.		|				Team members can concurrently change files on their dev machines. You create commits on your dev machine independently of contributing them to the team. When you’re ready you must pull the latest commits before you upload (push) yours to the server. When you pull, you might be interrupted by conflicts. 
+You can amend the latest local commit. You cannot change older commits. You can link commits to work items and associate them with completed builds. You can modify and combine local commits from the command prompt.		|
 ----------------------------------------------------------------
 			a	|				b	|				c		|
 ----------------------------------------------------------------
