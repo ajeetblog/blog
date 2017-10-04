@@ -66,8 +66,8 @@ dir: will list out all the subscription associated with logged in account.
 cd to subscription: to set the subscription context
      ![cd](/images/posts/PSCloudShell/cd1.JPG)
 
-All resource view: will list high level view of <<>>
-     ![All resource view](/images/posts/PSCloudShell/cd1.JPG)
+All resource view
+     ![All resource view](/images/posts/PSCloudShell/dirallres.JPG)
 
 Get-AzureRMVM: List all the VMs
      ![Get-AzureRMVM](/images/posts/PSCloudShell/getazurermvm.JPG)
