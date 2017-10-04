@@ -45,7 +45,7 @@ To persist files across sessions, Cloud Shell walks you through attaching an Azu
 Login to Azure portal and select CloudShell. In Cloud Shell drop down select PowerShell.
 If you are doing this first time, You need to create a storage account (which is standard storage account)
 
-![Create Storage](/images/posts/PSCloudShell/crtstr.jpg)
+![Create Storage](/images/posts/PSCloudShell/crtstr.JPG)
 
 ### What is Azure Drive?
 PowerShell has a concept of namespaces. Azure drive (Azure:) PowerShell in Cloud Shell starts you in Azure drive (Azure:). Azure drive enables easy discovery and navigation of Azure resources such as Compute, Network, Storage etc. similar to filesystem navigation. You can continue to use the familiar Azure PowerShell cmdlets to manage these resources. Any changes made to the Azure resources, either made directly in Azure portal or through Azure PowerShell cmdlets, are instantly reflected in the Azure drive.
