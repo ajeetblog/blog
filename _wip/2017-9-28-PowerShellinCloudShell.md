@@ -42,84 +42,24 @@ To persist files across sessions, Cloud Shell walks you through attaching an Azu
 
 ### Let's Start:
 
-![Create Storage](/images/posts/PSCloudShell/crtstr.jpg)
+Login to Azure portal and select CloudShell. In Cloud Shell drop down select PowerShell.
+If you are doing this first time, You need to create a storage account (which is standard storage account)
 
+![Create Storage] (/images/posts/PSCloudShell/crtstr.jpg)
 
-Azure drive (Azure:)
-
-Azure:\>PowerShell has a concept of namespaces. What its doing mounting your Azure resources as file system. 
-
-dir listing all the subscription 
-
-cd <<subscription name>>  (autocomplition)
-
-ls -- resource group with multiple view
-
-most common things
-
-get-AzureRMVM
-
-list of all VM
-
-cd .\<<resgrp>> -res    
-
-ls
-
-gt-AzureRMVM
-
-clouddrive
-same clud drive is available with both Bash ad PoswerShell container
-
-cd $home c 
-
-ce lets mount your
-list of all the subscription
-in the back their are container. its authenticating 
+### What is Azure Drive?
+PowerShell has a concept of namespaces. Azure drive (Azure:) PowerShell in Cloud Shell starts you in Azure drive (Azure:). Azure drive enables easy discovery and navigation of Azure resources such as Compute, Network, Storage etc. similar to filesystem navigation. You can continue to use the familiar Azure PowerShell cmdlets to manage these resources. Any changes made to the Azure resources, either made directly in Azure portal or through Azure PowerShell cmdlets, are instantly reflected in the Azure drive.
 
 
 
+### Rich PowerShell script editing
 
-Azure it self provider
-
-CD <<subscription name>>
- List of res group multiple view
-
- you are in Azure drive
-
- get-AzureRMVM
-
- cd .\<resgroup>\name
-
- get-AzureRMVM against the context
-
- Cloud drive same cloud drive will be availabe 
-CD$home
-clouddrive is free
-get-module AzureRM*
-
-Find-Module AzurAD figure out and find AD and if you install in your cloud drive
-
-get-clouddrive
-
-help
-
-git --version
+When you use VIM to edit PowerShell files (.ps1,.psm1,.psd1), you automatically get syntax highlighting and IntelliSense support. IntelliSense support is implemented via a vim-plugin that interacts with a local instance of 
 
 
-ls
+### Extensible model
 
-vim .\cloudshell.ps1
-
-intellsense 
-
-
-nano
-
-
-
-
-
-
+Using PowerShellGet, you can easily install (and update) custom modules and scripts from the PowerShell Gallery. After installation, your modules are automatically persisted across Cloud Shell sessions.
 
 
 ![Create new project](/images/posts/PSCloudShell/dir.jpg)
