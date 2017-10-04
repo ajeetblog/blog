@@ -94,13 +94,6 @@ Navigate to Storage
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/clouddrive1.JPG)
 
-
-### Find and Install Modules
-![Get-AzureRMVM](/images/posts/PSCloudShell/findmod1.JPG)
-
-![Get-AzureRMVM](/images/posts/PSCloudShell/getmodlist.JPG)
-
-
 ### Rich PowerShell script editing
 
 When you use VIM to edit PowerShell files (.ps1,.psm1,.psd1), you automatically get syntax highlighting and IntelliSense support. IntelliSense support is implemented via a vim-plugin that interacts with a local instance of 
@@ -109,6 +102,10 @@ When you use VIM to edit PowerShell files (.ps1,.psm1,.psd1), you automatically 
 ### Extensible model
 
 Using PowerShellGet, you can easily install (and update) custom modules and scripts from the PowerShell Gallery. After installation, your modules are automatically persisted across Cloud Shell sessions.
+
+![Get-AzureRMVM](/images/posts/PSCloudShell/findmod1.JPG)
+
+![Get-AzureRMVM](/images/posts/PSCloudShell/getmodlist.JPG)
 
 ### Pricing
 https://docs.microsoft.com/en-in/azure/cloud-shell/pricing
