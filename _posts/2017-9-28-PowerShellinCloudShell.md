@@ -47,6 +47,8 @@ If you are doing this first time, You need to create a storage account (which is
 
 ![Create Storage](/images/posts/PSCloudShell/crtstr.JPG)
 
+<>
+
 ![Create Storage](/images/posts/PSCloudShell/login.JPG)
 
 ### What is Azure Drive?
