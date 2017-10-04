@@ -52,12 +52,13 @@ PowerShell in Cloud Shell securely and automatically authenticates account acces
 
 ![Create Storage](/images/posts/PSCloudShell/login.JPG)
 
-After succesfull authentication you will see Azure as a drive {% highlight powershell %}
-PS Azure:/>
-{% endhighlight %} in your Shell prompt
+After succesfull authentication you will see Azure as a drive  in your Shell prompt
+ {% highlight powershell %}
+    PS Azure:/>
+{% endhighlight %}
 
 ### What is Azure Drive?
-PowerShell has a concept of namespaces. Azure drive (Azure:) PowerShell in Cloud Shell starts you in Azure drive (Azure:). Azure drive enables easy discovery and navigation of Azure resources such as Compute, Network, Storage etc. similar to filesystem navigation. You can continue to use the familiar Azure PowerShell cmdlets to manage these resources. Any changes made to the Azure resources, either made directly in Azure portal or through Azure PowerShell cmdlets, are instantly reflected in the Azure drive.
+PowerShell has a concept of namespaces. Azure drive enables easy discovery and navigation of Azure resources such as Compute, Network, Storage etc. like filesystem navigation. You can continue to use the familiar Azure PowerShell cmdlets to manage these resources. Any changes made to the Azure resources, either made directly in Azure portal or through Azure PowerShell cmdlets, are instantly reflected in the Azure drive.
 
 
 
