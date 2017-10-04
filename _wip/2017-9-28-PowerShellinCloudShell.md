@@ -8,7 +8,10 @@ categories: [Azure, DevOps]
 author: Ajeet
 ---
 
-PowerShell in CloudShell is now available in public preview. It's really nice and cool feature. We can run and manage the operation using PowerShell directly from the Azure Portal. 
+PowerShell in CloudShell is now available in public preview.
+
+#### What is CloudShell?
+Azure Cloud Shell is a browser-based shell experience to manage and develop Azure resources. Cloud Shell offers a browser-accessible, pre-configured shell experience for managing Azure resources without the overhead of installing, versioning, and maintaining a machine yourself. 
 
 #### Advantages:
 -   Shell access from virtually anywhere: Connect to Azure using an authenticated, browser-based shell experience that is hosted in the cloud and accessible from virtually anywhere. Azure Cloud Shell is assigned per unique user account and automatically authenticated with each session. Combined with Azure portal’s familiar GUI experience, Cloud Shell adds the power and flexibility of using a modern command-line experience.
@@ -17,7 +20,9 @@ PowerShell in CloudShell is now available in public preview. It's really nice an
 -   Persist your files in attached cloud storage: Cloud Shell attaches an Azure File share to persist your data. On first use, Cloud Shell will prompt to create a file share in Azure File storage (or attach an existing one) to persist your data across sessions and Cloud Shell will automatically re-attach it for subsequent sessions.
 
 #### Windows and Linux together.
-in the back their are bunch of container with PowerShell (Windows) and Bash (Linux). As you connect, Azure go and figure out the respective VM and figure out the container. Please make a note that thier is not cost for these container. Cloud Shell billing is based only on the Azure File storage used to persist your data. Your total cost depends on how much you store, the volume and type of storage transactions and outbound data transfers, and which data redundancy option you choose.
+in the back their are bunch of container with PowerShell (Windows) and Bash (Linux). As you connect, Azure go and figure out the respective VM and figure out the container. Please make a note that thier is not cost for these container. Cloud Shell billing is based only on the Azure File storage used to persist your data. Your total cost depends on how much you store, the volume and type of storage transactions and outbound data transfers, and which data redundancy option you choose. 
+
+Cloud Shell provisions machines on a per-request basis and as a result machine state will not persist across sessions. Since Cloud Shell is built for interactive sessions, shells automatically terminate after 20 minutes of shell inactivity.
 
 -   Cloud Shell runs on a temporary machine provided on a per-session, per-user basis
 -   Cloud Shell times out after 20 minutes without interactive activity
@@ -29,6 +34,18 @@ in the back their are bunch of container with PowerShell (Windows) and Bash (Lin
 Here we have option to increase the font size as well as resize the Window.
 More than PowerShell on Windows
 
+
+PowerShell in Cloud Shell securely and automatically authenticates account access for the Azure PowerShell.
+
+To persist files across sessions, Cloud Shell walks you through attaching an Azure file share on first launch. Once completed, Cloud Shell will automatically attach your storage (mounted as $home\clouddrive) for all future sessions. Since each request for Cloud Shell is allocating a temporary machine, files outside of your $home\clouddrive and machine state are not persisted across sessions.
+
+
+### Let's Start:
+
+![Create Storage](/images/posts/PSCloudShell/crtstr.jpg)
+
+
+Azure drive (Azure:)
 
 Azure:\>PowerShell has a concept of namespaces. What its doing mounting your Azure resources as file system. 
 
@@ -103,7 +120,7 @@ nano
 
 
 
-![Create new project](/images/posts/PSCloudShell/crtstr.jpg)
+
 
 ![Create new project](/images/posts/PSCloudShell/dir.jpg)
 
