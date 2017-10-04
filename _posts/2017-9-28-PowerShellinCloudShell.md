@@ -60,25 +60,23 @@ After succesfull authentication you will see Azure as a drive  in your Shell pro
 ### What is Azure Drive?
 PowerShell has a concept of namespaces. Azure drive enables easy discovery and navigation of Azure resources such as Compute, Network, Storage etc. like filesystem navigation. You can continue to use the familiar Azure PowerShell cmdlets to manage these resources. Any changes made to the Azure resources, either made directly in Azure portal or through Azure PowerShell cmdlets, are instantly reflected in the Azure drive.
 
-dir
+dir: will list out all the subscription associated with logged in account.
     ![dir](/images/posts/PSCloudShell/dir.JPG)
 
-ls
-     ![ls](/images/posts/PSCloudShell/dir.JPG)
-
-cd to subscription
+cd to subscription: to set the subscription context
      ![cd](/images/posts/PSCloudShell/cd1.JPG)
 
-All resource view
+All resource view: will list high level view of <<>>
      ![All resource view](/images/posts/PSCloudShell/cd1.JPG)
 
-Get-AzureRMVM
+Get-AzureRMVM: List all the VMs
      ![Get-AzureRMVM](/images/posts/PSCloudShell/getazurermvm.JPG)
 
-Navigate to Storage
+Navigate to Storage: List all the Storage account
      ![Get-AzureRMVM](/images/posts/PSCloudShell/dirstorage.JPG)
 
 ### Use Git
+Clone git repo into
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/git.JPG)
 
@@ -98,6 +96,11 @@ Navigate to Storage
 
 When you use VIM to edit PowerShell files (.ps1,.psm1,.psd1), you automatically get syntax highlighting and IntelliSense support. IntelliSense support is implemented via a vim-plugin that interacts with a local instance of 
 
+![Get-AzureRMVM](/images/posts/PSCloudShell/vim.JPG)
+
+![Get-AzureRMVM](/images/posts/PSCloudShell/vim2.JPG)
+
+![Get-AzureRMVM](/images/posts/PSCloudShell/vim2.JPG)
 
 ### Extensible model
 
