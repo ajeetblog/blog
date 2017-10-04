@@ -52,7 +52,7 @@ PowerShell in Cloud Shell securely and automatically authenticates account acces
 
 ![Create Storage](/images/posts/PSCloudShell/login.JPG)
 
-You will see {% highlight powershell %}
+After succesfull authentication you will see Azure as a drive {% highlight powershell %}
 PS Azure:/>
 {% endhighlight %} in your Shell prompt
 
