@@ -10,7 +10,7 @@ author: Ajeet
 
 PowerShell in CloudShell is now available in public preview.
 
-### What is CloudShell?
+### CloudShell:
 Azure Cloud Shell is a browser-based shell experience to manage and develop Azure resources. Cloud Shell offers a browser-accessible, pre-configured shell experience for managing Azure resources without the overhead of installing, versioning, and maintaining a machine yourself. 
 
 ### Advantages:
@@ -57,7 +57,7 @@ After succesfull authentication you will see Azure as a drive  in your Shell pro
     PS Azure:/>
 {% endhighlight %}
 
-### What is Azure Drive?
+### Azure Drive
 PowerShell has a concept of namespaces. Azure drive enables easy discovery and navigation of Azure resources such as Compute, Network, Storage etc. like filesystem navigation. You can continue to use the familiar Azure PowerShell cmdlets to manage these resources. Any changes made to the Azure resources, either made directly in Azure portal or through Azure PowerShell cmdlets, are instantly reflected in the Azure drive.
 
 dir: will list out all the subscription associated with logged in account.
