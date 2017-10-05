@@ -66,9 +66,6 @@ dir: will list out all the subscription associated with logged in account.
 cd to subscription: to set the subscription context
      ![cd](/images/posts/PSCloudShell/cd1.JPG)
 
-All resource view
-     ![All resource view](/images/posts/PSCloudShell/dirallres.JPG)
-
 Get-AzureRMVM: List all the VMs
      ![Get-AzureRMVM](/images/posts/PSCloudShell/getazurermvm.JPG)
 
@@ -76,7 +73,7 @@ Navigate to Storage: List all the Storage account
      ![Get-AzureRMVM](/images/posts/PSCloudShell/dirstorage.JPG)
 
 ### Use Git
-Clone git repo into
+Clone git repo
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/git.JPG)
 
