@@ -97,13 +97,15 @@ When you use VIM to edit PowerShell files (.ps1,.psm1,.psd1), you automatically 
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/vim2.JPG)
 
-![Get-AzureRMVM](/images/posts/PSCloudShell/vim2.JPG)
+![Get-AzureRMVM](/images/posts/PSCloudShell/vim3.JPG)
 
 ### Extensible model
 
 Using PowerShellGet, you can easily install (and update) custom modules and scripts from the PowerShell Gallery. After installation, your modules are automatically persisted across Cloud Shell sessions.
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/findmod1.JPG)
+
+run Install-Module <<module name>>
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/getmodlist.JPG)
 
