@@ -66,6 +66,9 @@ dir: will list out all the subscription associated with logged in account.
 cd to subscription: to set the subscription context
      ![cd](/images/posts/PSCloudShell/cd1.JPG)
 
+High level view
+    ![High level view](/images/posts/PSCloudShell/subdir.JPG)
+
 Get-AzureRMVM: List all the VMs
      ![Get-AzureRMVM](/images/posts/PSCloudShell/getazurermvm.JPG)
 
@@ -105,7 +108,9 @@ Using PowerShellGet, you can easily install (and update) custom modules and scri
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/findmod1.JPG)
 
-run Install-Module <<module name>>
+run Install-Module
+
+![Get-AzureRMVM](/images/posts/PSCloudShell/insmod1.JPG)
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/getmodlist.JPG)
 
