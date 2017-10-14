@@ -1,6 +1,6 @@
 ---
 layout: post
-title: VNET provisioning using ARM
+title: IaC - 101 - VNET
 description: "VNET provisioning using ARM"
 modified: 2016-12-01
 tags: [VNET, IaC]
