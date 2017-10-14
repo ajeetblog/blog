@@ -10,7 +10,7 @@ author: Ajeet
 
 PowerShell in CloudShell is now available in public preview.
 
-### What is CloudShell?
+### CloudShell:
 Azure Cloud Shell is a browser-based shell experience to manage and develop Azure resources. Cloud Shell offers a browser-accessible, pre-configured shell experience for managing Azure resources without the overhead of installing, versioning, and maintaining a machine yourself. 
 
 ### Advantages:
@@ -57,7 +57,7 @@ After succesfull authentication you will see Azure as a drive  in your Shell pro
     PS Azure:/>
 {% endhighlight %}
 
-### What is Azure Drive?
+### Azure Drive
 PowerShell has a concept of namespaces. Azure drive enables easy discovery and navigation of Azure resources such as Compute, Network, Storage etc. like filesystem navigation. You can continue to use the familiar Azure PowerShell cmdlets to manage these resources. Any changes made to the Azure resources, either made directly in Azure portal or through Azure PowerShell cmdlets, are instantly reflected in the Azure drive.
 
 dir: will list out all the subscription associated with logged in account.
@@ -66,8 +66,8 @@ dir: will list out all the subscription associated with logged in account.
 cd to subscription: to set the subscription context
      ![cd](/images/posts/PSCloudShell/cd1.JPG)
 
-All resource view
-     ![All resource view](/images/posts/PSCloudShell/dirallres.JPG)
+High level view
+    ![High level view](/images/posts/PSCloudShell/subdir.JPG)
 
 Get-AzureRMVM: List all the VMs
      ![Get-AzureRMVM](/images/posts/PSCloudShell/getazurermvm.JPG)
@@ -76,7 +76,7 @@ Navigate to Storage: List all the Storage account
      ![Get-AzureRMVM](/images/posts/PSCloudShell/dirstorage.JPG)
 
 ### Use Git
-Clone git repo into
+Clone git repo
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/git.JPG)
 
@@ -100,13 +100,17 @@ When you use VIM to edit PowerShell files (.ps1,.psm1,.psd1), you automatically 
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/vim2.JPG)
 
-![Get-AzureRMVM](/images/posts/PSCloudShell/vim2.JPG)
+![Get-AzureRMVM](/images/posts/PSCloudShell/vim3.JPG)
 
 ### Extensible model
 
 Using PowerShellGet, you can easily install (and update) custom modules and scripts from the PowerShell Gallery. After installation, your modules are automatically persisted across Cloud Shell sessions.
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/findmod1.JPG)
+
+run Install-Module
+
+![Get-AzureRMVM](/images/posts/PSCloudShell/insmod1.JPG)
 
 ![Get-AzureRMVM](/images/posts/PSCloudShell/getmodlist.JPG)
 
