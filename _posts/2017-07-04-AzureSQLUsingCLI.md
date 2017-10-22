@@ -6,7 +6,9 @@ modified: 2017-07-04
 tags: [Azure SQL, CLI, 70-533]
 categories: [Azure]
 author: Ajeet
-thumb: images/thumb-icon-ajeet.jpg    #place thumbnail (70x70)
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
  
 

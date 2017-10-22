@@ -6,6 +6,9 @@ modified: 2017-07-27
 tags: [VSTS, Git]
 categories: [DevOps]
 author: Ajeet
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
 
 VSTS or Team services offers 2 types of version control

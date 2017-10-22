@@ -6,6 +6,9 @@ modified: 2017-08-02
 tags: [VSTS, Git]
 categories: [DevOps]
 author: Ajeet
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
 
 Depending upon the requirement you can have one or more repo inside your project. You can create repos by using

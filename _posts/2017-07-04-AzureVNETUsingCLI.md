@@ -6,6 +6,9 @@ modified: 2017-07-04
 tags: [VNET, CLI, 70-533]
 categories: [Azure]
 author: Ajeet
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
 
 ####  The Azure CLI 2.0 is Azure's new command-line experience for managing Azure resources. You can use it in your browser with Azure Cloud Shell, or you can install it on macOS, Linux, and Windows and run it from the command line.

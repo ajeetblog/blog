@@ -6,6 +6,9 @@ modified: 2017-07-03
 tags: [Ransomware]
 categories: [Azure]
 author: Ajeet
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
 Would like Share email recevied from Mirosoft today. Hope it will help.
 

@@ -6,6 +6,9 @@ modified: 2017-07-12
 tags: [IaC]
 categories: [Azure]
 author: Ajeet
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
 With the introduction of Azure Resource Manager model life become much easier. New model not only provide much more granul control over design, deployment and managment but it also providet the JSON base template deployment to support Infrastrcture-as-Code. Which is one of important pillar of DevOps.
 

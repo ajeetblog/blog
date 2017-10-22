@@ -6,6 +6,9 @@ modified: 2017-08-31
 tags: [Azure, PowerShell]
 categories: [Azure, DevOps]
 author: Ajeet
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
 
 PowerShell in CloudShell is now available in public preview.

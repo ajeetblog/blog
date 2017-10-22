@@ -6,6 +6,9 @@ modified: 2016-12-01
 tags: [PowerShell]
 categories: [Azure]
 author: Ajeet
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
 
 ### Get list of Azure RM API versions

@@ -6,6 +6,9 @@ modified: 2016-12-01
 tags: [DSC, Configuration Managment]
 categories: [DevOps]
 author: Ajeet
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
 
 

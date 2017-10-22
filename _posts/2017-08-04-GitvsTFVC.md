@@ -6,6 +6,9 @@ modified: 2017-08-04
 tags: [Git]
 categories: [DevOps]
 author: Ajeet
+google_analytics:  UA-101864870-1
+google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
+production: true
 ---
 
 I found one nice artical talking about Git v/s TFVC and think it's worth to share.
