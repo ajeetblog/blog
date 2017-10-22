@@ -20,6 +20,8 @@ Git is a distributed version control system. Each developer has a copy of the so
 # TFVC (centralized)
 Team Foundation Version Control (TFVC) is a centralized version control system. Typically, team members have only one version of each file on their dev machines. Historical data is maintained only on the server. Branches are path-based and created on the server.
 
+<!--more-->
+
 TFVC has two workflow models:
 
 1.	Server workspaces - Before making changes, team members publicly check out files. Most operations require developers to be connected to the server. This system facilitates locking workflows. Other systems that work this way include Visual Source Safe, Perforce, and CVS. With server workspaces, you can scale up to very large codebases with millions of files per branch and large binary files.

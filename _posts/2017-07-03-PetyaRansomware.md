@@ -14,6 +14,8 @@ Would like Share email recevied from Mirosoft today. Hope it will help.
 
 #### What is the purpose of this alert? 
 This alert is to provide you with guidance concerning the ransomware issue being discussed broadly in the press starting on Tuesday, June 27, 2017, and causing a large volume of customer inquiries.  This ransomware is being described by the press and security researchers as “Petya Ransomware.”
+
+ <!--more-->
  
 #### Overview 
 Microsoft’s antivirus software detects and protects against this ransomware. Our initial analysis found that the ransomware uses multiple techniques to spread, including two which were addressed by a security update (MS17-010) previously provided for all platforms from Windows XP to Windows 10. 

@@ -19,7 +19,8 @@ Depending upon the requirement you can have one or more repo inside your project
 	4.	IntelliJ
 	5. 	Xcode
 	6.	Eclipse	
-
+	
+<!--more-->
 
 ## Create repo using Web
 

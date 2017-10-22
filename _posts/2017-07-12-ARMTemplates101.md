@@ -12,6 +12,8 @@ production: true
 ---
 With the introduction of Azure Resource Manager model life become much easier. New model not only provide much more granul control over design, deployment and managment but it also providet the JSON base template deployment to support Infrastrcture-as-Code. Which is one of important pillar of DevOps.
 
+<!--more-->
+
 Azure ASM  (classic) is based on XML whereas Azure RM is based on JSON. 
 
 *  Azure Resource Manager: Enables you to work with the resources in your solution as a group. 

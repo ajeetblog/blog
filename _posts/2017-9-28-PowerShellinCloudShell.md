@@ -16,6 +16,8 @@ PowerShell in CloudShell is now available in public preview.
 ### CloudShell:
 Azure Cloud Shell is a browser-based shell experience to manage and develop Azure resources. Cloud Shell offers a browser-accessible, pre-configured shell experience for managing Azure resources without the overhead of installing, versioning, and maintaining a machine yourself. 
 
+<!--more-->
+
 ### Advantages:
 -   Shell access from virtually anywhere: Connect to Azure using an authenticated, browser-based shell experience that is hosted in the cloud and accessible from virtually anywhere. Azure Cloud Shell is assigned per unique user account and automatically authenticated with each session. Combined with Azure portal’s familiar GUI experience, Cloud Shell adds the power and flexibility of using a modern command-line experience.
 

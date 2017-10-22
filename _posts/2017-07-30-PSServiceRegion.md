@@ -13,6 +13,8 @@ production: true
 
 It's always good to have pre-flight validation check. Many time we have face the problem where end customer is deploying service/s which is not available to desired region. Output of the below script return the regions where the particular service.
 
+<!--more-->
+
 {% highlight powershell %}
 $resources = Get-AzureRmResourceProvider -ProviderNamespace Microsoft.Compute
 $resources.ResourceTypes.Where{($_.ResourceTypeName -eq 'virtualMachines')}.Locations

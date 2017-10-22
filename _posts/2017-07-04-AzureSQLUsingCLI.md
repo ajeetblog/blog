@@ -16,6 +16,8 @@ production: true
 
 Learning Azure CLI is pretty simple specially if you are comfort with PowerShell. Following script block shows how to create SQL server with database using Azure CLI
 
+<!--more-->
+
 {% highlight powershell %}
 # Set an admin login and password for your database
             export adminlogin=ServerAdmin
