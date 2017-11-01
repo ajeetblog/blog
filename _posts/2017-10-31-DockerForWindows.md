@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up Docker for Windows 10 environment
+title: Setting up Docker on Windows 10 environment
 description: "Docker for Windows"
 modified: 2017-10-31
 tags: [Docker, Container]
