@@ -31,3 +31,4 @@ Following PS will give you the installed version
 ```PowerShell
 docker version
 ```
+Will discuss more about containers in upcoming posts.
