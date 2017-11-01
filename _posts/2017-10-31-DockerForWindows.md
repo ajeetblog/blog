@@ -19,6 +19,19 @@ An integrated, easy-to-deploy development environment for building, debugging an
 I will walk through basic deployment and use of the Windows container feature on Windows 10 Professional or Enterprise (Anniversary Edition). After completion, you will have installed Docker for Windows and run a simple container.
 <!--more-->
 Base machine must have Windows 10 Anniversary Edition or Creators Update (Professional or Enterprise).
-All you need to enable Hyper-V feature to provide isolation.
+
 
 [Get code to install and configure docker for windows](https://github.com/AjeetChouksey/IaCLab/tree/master/Containers/DockerforWindows)
+
+After installation Docker for Windows defaults to running Linux containers. Switch to Windows containers using either the Docker tray-menu or by running the following command in a PowerShell prompt 
+```PowerShell
+& $Env:ProgramFiles\Docker\Docker\DockerCli.exe -SwitchDaemon.
+```
+![Switch Container](\images\posts\container\switchcontainer.JPG)
+
+## Let's play
+Following PS will give you the installed version
+```PowerShell
+docker version
+```
+
