@@ -22,6 +22,6 @@ The good thing is here that Azure keeps track of your usage of each service and 
 [List of 12 month free services and available regions](https://azure.microsoft.com/en-us/free/free-account-faq/)
  
  
-> ### Watch Azure Friday Video
+> Watch Azure Friday Video
 
    [![Watch video New Azure Free Account](https://sec.ch9.ms/ch9/6a67/8168a264-d235-4cc2-aaf5-98bca6606a67/AzFrAzFreeAcct_960.jpg)](https://sec.ch9.ms/ch9/6a67/8168a264-d235-4cc2-aaf5-98bca6606a67/AzFrAzFreeAcct_high.mp4)
