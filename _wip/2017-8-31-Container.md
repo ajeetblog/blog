@@ -11,13 +11,13 @@ author: Ajeet
 The traditional IT architectures, support styles, skills, methodologies, business processes and technologies that have enabled IT leaders to withstand past storms are rapidly becoming obsolete. According to Gartner, the transition to Agile, DevOps and Web-scale IT practices is as disruptive to IT as was the adoption of lean practices to manufacturing in the 1980s.  IT is scrambling to find people to deal with these changes; 66% of CIOs say there’s a talent crisis right now. Making matters worse: IT budgets are expected to rise by just 2% in 2016. IT will have to repurpose their existing budgets to respond to this perfect storm and transform the way they operate IT on a large scale
 <!--more-->
 
-![](\images\posts\container\deploym1.JPG)
+![](/images/posts/container/deploym1.JPG)
 
 
-![](\images\posts\container\deploym2.JPG)
+![](/images/posts/container/deploym2.JPG)
 
 
-![](\images\posts\container\deploym3.JPG)
+![](/images/posts/container/deploym3.JPG)
 
 
 > CONTAINERS
@@ -32,7 +32,7 @@ Virtual machines (VMs) are an abstraction of physical hardware turning one serve
 > Container Isolation
 
 
-![](\images\posts\container\containeriso1.JPG)
+![](/images/posts/container/containeriso1.JPG)
 
 
 Containers isolate applications from each other on a shared operating system (OS). This approach standardizes application program delivery, allowing apps to run as Linux or Windows containers on top of the host OS (Linux or Windows). Because containers share the same OS kernel (Linux or Windows), they are significantly lighter than virtual machine (VM) images. 
@@ -43,7 +43,7 @@ However, Hyper-V containers are less lightweight than regular Docker containers.
 *   Windows Server Containers – provide application isolation through process and namespace isolation technology. A Windows Server container shares a kernel with the container host and all containers running on the host.
 *   Hyper-V Containers – expands on the isolation provided by Windows Server Containers by running each container in a highly optimized virtual machine. In this configuration the kernel of the container host is not shared with the Hyper-V Containers providing better isolation. 
 
-![](\images\posts\container\wincon2.JPG)
+![](/images/posts/container/wincon2.JPG)
 
 > Container v/s VM
 
@@ -78,7 +78,7 @@ Docker is an open-source project for automating the deployment of applications a
 
 > *High level Architecture*
 
-![](\images\posts\container\hla.JPG) 
+![](/images/posts/container/hla.JPG) 
 
 > *Azure services for various container needs*
 
