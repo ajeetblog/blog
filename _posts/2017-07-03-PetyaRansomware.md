@@ -10,19 +10,19 @@ google_analytics:  UA-101864870-1
 google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
 production: true
 ---
-Would like Share email recevied from Mirosoft today. Hope it will help.
+Would like Share email received from Microsoft today. Hope it will help.
 
 > #### What is the purpose of this alert? 
 This alert is to provide you with guidance concerning the ransomware issue being discussed broadly in the press starting on Tuesday, June 27, 2017, and causing a large volume of customer inquiries.  This ransomware is being described by the press and security researchers as “Petya Ransomware.”
 
  <!--more-->
  
-> ### Overview 
+> Overview 
 Microsoft’s antivirus software detects and protects against this ransomware. Our initial analysis found that the ransomware uses multiple techniques to spread, including two which were addressed by a security update (MS17-010) previously provided for all platforms from Windows XP to Windows 10. 
  
 As a general precaution, customers should exercise caution when opening unknown files. We are continuing to investigate and will take appropriate action to protect customers..
  
->### Malware Detection 
+> Malware Detection 
 Windows Defender, System Center Endpoint Protection, and Forefront Endpoint Protection detect this threat family as Ransom:Win32/Petya. Ensure you have a definition version equal to or later than:
 •	Threat definition version: 1.247.197.0
 •	Version created on: 12:04:25 PM : Tuesday, June 27 2017

@@ -11,7 +11,7 @@ google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
 production: true
 ---
 
-> PowerShell Desired State Configuration (DSC)
+## PowerShell Desired State Configuration (DSC)
 
 {% highlight powershell %}
 #DSC Configuration

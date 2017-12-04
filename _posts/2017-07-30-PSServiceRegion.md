@@ -10,7 +10,6 @@ google_analytics:  UA-101864870-1
 google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
 production: true
 ---
-
 It's always good to have pre-flight validation check. Many time we have face the problem where end customer is deploying service/s which is not available to desired region. Output of the below script return the regions where the particular service.
 
 <!--more-->
