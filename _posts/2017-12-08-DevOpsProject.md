@@ -75,7 +75,7 @@ By completing a few quick steps, now you have a DevOps Project which includes:
 
 *Select/ Create VSTS account*
 
-![Select VSTS](/images/posts/devopsprj/vsts.JPG)
+![DRG](/images/posts/devopsprj/vsts.JPG)
 
 *Deployment and Resource groups*
 
