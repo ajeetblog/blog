@@ -11,6 +11,8 @@ author: Ajeet
 The traditional IT architectures, support styles, skills, methodologies, business processes and technologies that have enabled IT leaders to withstand past storms are rapidly becoming obsolete. According to Gartner, the transition to Agile, DevOps and Web-scale IT practices is as disruptive to IT as was the adoption of lean practices to manufacturing in the 1980s.  IT is scrambling to find people to deal with these changes; 66% of CIOs say there’s a talent crisis right now. Making matters worse: IT budgets are expected to rise by just 2% in 2016. IT will have to repurpose their existing budgets to respond to this perfect storm and transform the way they operate IT on a large scale
 <!--more-->
 
+If you refer the tradional de
+
 ![](/images/posts/container/deploym1.JPG)
 
 
