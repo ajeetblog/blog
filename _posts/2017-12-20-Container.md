@@ -8,7 +8,7 @@ categories: [Azure, DevOps]
 author: Ajeet
 ---
 
-**It’s all about Application**
+# It’s all about Application
 
 This is the simplest definition I use to explain container. No matter whether we have simple medium or high complex environments at the end we need all this to run the applications.
 

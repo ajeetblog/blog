@@ -4,7 +4,7 @@ title: Setting up Docker on Windows 10 environment
 description: "Docker for Windows"
 modified: 2017-10-31
 tags: [Docker, Container]
-categories: [Container]
+categories: [Azure, DevOps]
 author: Ajeet
 google_analytics:  UA-101864870-1
 google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
