@@ -18,8 +18,7 @@ google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
 production: true
 
 # Comment Service (Disqus or 多说)
-#  choose one and un-comment the line to active it
-disqus_shortname: azure365   # get one: https://disqus.com/admin/signup/
+
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 # Owner/author information
 owner:
