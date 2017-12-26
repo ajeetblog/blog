@@ -22,6 +22,12 @@
                             {% endif %}
                         </td>
                         <td>
+                            {% if member.youtube %}
+                            <a href="https://www.youtube.com/channel/UCy35PfWRfM2H_Jm7QBBs5ig" title="Youtube" target="_blank"><img src="/images/social/youtube-20X20.png" alt="youtube" class="tilt"></img>
+                            </a>
+                            {% endif %}
+                        </td>
+                        <td>
                             <a href="http://feeds.feedburner.com/co/aAnKC"><img src="/images/social/rss-20x20.png" alt="rss" class="tilt"></img>
                             </a> 
                         </td>
@@ -29,6 +35,8 @@
                             {% if member.github %}
                             <a href="{{ member.github }}" title="GitHub" target="_blank"><img src="/images/social/github-20x20.png" alt="github" class="tilt"></img>
                             </a>
+                            </td>
+                            <td>
                             {% elsif member.wordpress %}
                             <a href="{{ member.wordpress }}" title="Wordpress" target="_blank"><img src="/images/social/wordpress-20x20.png" alt="wordpress" class="tilt"></img>
                             </a>
