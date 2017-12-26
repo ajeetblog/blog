@@ -7,15 +7,44 @@ description: ""
 
 # Your information
 #see _data\authors.yml
+# put your disqus here
+disqus_shortname: azure365
+reading_time:     true # if true, shows the estimated reading time for a post
+words_per_minute: 200
+logo:            #images/logo.png # logo visible in the topbar
 excerpt_separator: <!--more-->
 google_analytics:  UA-101864870-1
 google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
 production: true
 
 # Comment Service (Disqus or 多说)
-#  choose one and un-comment the line to active it
-disqus_shortname: azure365   # get one: https://disqus.com/admin/signup/
+
 #duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+# Owner/author information
+owner:
+  name:           Ajeet Chouksey
+  site:           http://www.azure365.co.in
+  avatar:         images/ajeet.jpg
+  bio:            "Ajeet is a passionate and certified technologist, blogger, community contributor with 11 years of industry experience delivering enterprise solutions on the Microsoft Platform. His specialisms are Azure IaaS, Automation, onshore/offshore delivery, DevOps, Defining the appropriate infrastructure and platform solutions to meet the required functional, operational, and deployment requirements through the solution lifecycle.""
+  email:          ajeetnewit@outlook.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: ajeetchouksey27 # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: AjeetChouksey
+
+# Twitter account associated with the site if different from owner/author twitter account.
+# Used in Twitter cards.
+twitter: ajeetchouksey27
+
+# Social networking links used in author block underneath posts. Update and remove as you like.
+social:
+  - title: "github"
+    url: "https://github.com/ajeetchouksey"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/ajeet-chouksey-bb365138/"
+  - title: "youtube"
+    url: "https://www.youtube.com/channel/UCy35PfWRfM2H_Jm7QBBs5ig"
+
 
 permalink: /:categories/:title
 markdown: kramdown
