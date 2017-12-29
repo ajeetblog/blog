@@ -13,14 +13,14 @@ layout: default
     {% for tag in page.tags %}
       <a class="tag" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
     {% endfor %}
-   <div class="addthis_inline_follow_toolbox"></div>
+
     </p>
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
 
   </header>
   
   <article class="post-content">
-     <!-- <div class="addthis_inline_follow_toolbox"></div>-->
+     <div class="addthis_inline_follow_toolbox"></div>
       
     {{ content }}
     <a id="author"> </a>  
