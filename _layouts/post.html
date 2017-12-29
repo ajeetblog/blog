@@ -9,18 +9,20 @@ layout: default
       {% if page.author %} | {% for author in user %} <i class="fa fa-user text-success"></i> <a href="#author"><strong>{{ author.name }}</strong></a>{% endfor %} {% endif %}</p>
       <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     <p class="post-meta">
-      <br/>
+     <!-- <br/>-->
     {% for tag in page.tags %}
       <a class="tag" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
     {% endfor %}
+    <br/>
+    <p class="addthis_inline_follow_toolbox"></p>
     </p>
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
 
   </header>
   
   <article class="post-content">
-      <div class="addthis_inline_follow_toolbox"></div>
-      <div class="addthis_relatedposts_inline"></div>
+     <!-- <div class="addthis_inline_follow_toolbox"></div>-->
+      
     {{ content }}
     <a id="author"> </a>  
     
