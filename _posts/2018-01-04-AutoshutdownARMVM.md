@@ -9,7 +9,7 @@ author: Ajeet
 ---
 We all know that we can either use run books or use the option of Auto shutdown inside the VM blade. but all this require a manual action to configure. We can use **Microsoft.DevTestLab/schedules** resource to automate this during the provision of VM it self.
 
-```Json
+```JSON
 {
     "name": "[concat('shutdown-computevm-', parameters('virtualMachineName'))]",
     "type": "Microsoft.DevTestLab/schedules",
@@ -34,4 +34,4 @@ We all know that we can either use run books or use the option of Auto shutdown 
        "[concat('Microsoft.Compute/virtualMachines/', parameters('virtualMachineName'))]"
         ]
     },
-    ```
+```
