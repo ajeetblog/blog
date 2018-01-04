@@ -7,11 +7,20 @@ tags: [Azure, IaC]
 categories: [Cloud, DevOps]
 author: Ajeet
 ---
-We all know that we can either use run books or use the option of Auto shutdown inside the VM blade.
+We can use **Microsoft.DevTestLab/schedules** resource to automate this during the provision of VM it self.
+ 
+## VM shutdown options
+
+Manually shutting down a VM to put it in the Stopped (Deallocated) status is a great way to save cost on Azure VM’s. Although, you do need to remember to Stop the VM. This introduces a certain level of human error in the process of saving you hosting costs on your Azure VMs. As a result, Microsoft has added a scheduled auto-shutdown feature into the platform to assist you in this effort.
+We all know that we can either use run books or use the option of Auto shutdown inside the VM blade. Once it's configured no you are not worried about running VM, on defined schedule they will be automatically shutdown.
+
+But all this require a manual action to configure.  
+**Can we automate during the VM provisioning?**
+
 <!--more-->
 ![autoshutdown](/images/posts/iac/autoshutdown.JPG)
 
- But all this require a manual action to configure. We can use **Microsoft.DevTestLab/schedules** resource to automate this during the provision of VM it self.
+ As said we can use **Microsoft.DevTestLab/schedules** resource to automate this during the provision of VM it self. Let's play
 
 ```JSON
 {
