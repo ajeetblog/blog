@@ -8,6 +8,7 @@ categories: [Cloud]
 author: Ajeet
 ---
 
+Visual Studio Code (VS Code) is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). 
 
 VS code has very nice extension called **Azure Virtual Machine**. This extension helps you to start/ stop/ Deallocated the VMs directly from VS code. You may have auto shutdown scheduled, but if you have done with your work much before the schedule, you can immediately shutdown the VM, this will help you to save the some more cost and better resource utilization.
 
