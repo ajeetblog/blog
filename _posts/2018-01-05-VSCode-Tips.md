@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Manage Azure Virtual Machine in VS Code
-description: "Manage Azure Virtual Machine in VS Code"
+description: "Virtual Machine in VS Code"
 modified: 2018-01-05
 tags: [VSCode, IaC]
 categories: [Cloud]
@@ -15,5 +15,4 @@ Even to start deallocated VMs you need not to go the portal, you can do that fro
 
 <!--more-->
 
-   [![Watch video New Azure Free Account](https://i.ytimg.com/vi/34DjwdeHFPE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIZCGAE=&rs=AOn4CLD-gFD3jPNfwkp0iAxrvnx5EC_DYg)](https://www.youtube.com/watch?v=34DjwdeHFPE&t=5s)
-
+[![Watch video New Azure Free Account](https://i.ytimg.com/vi/34DjwdeHFPE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIZCGAE=&rs=AOn4CLD-gFD3jPNfwkp0iAxrvnx5EC_DYg)](https://www.youtube.com/watch?v=34DjwdeHFPE&t=5s)
