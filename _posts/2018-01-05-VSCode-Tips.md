@@ -14,5 +14,6 @@ VS code has very nice extension called **Azure Virtual Machine**. This extension
 Even to start deallocated VMs you need not to go the portal, you can do that from VS Code as well.
 
 <!--more-->
+> Watch Video
 
 [![Watch video New Azure Free Account](https://i.ytimg.com/vi/34DjwdeHFPE/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIZCGAE=&rs=AOn4CLD-gFD3jPNfwkp0iAxrvnx5EC_DYg)](https://www.youtube.com/watch?v=34DjwdeHFPE&t=5s)
