@@ -16,7 +16,7 @@ Data.. Data.. Data
 
 
 Every organization whether its startup or large enterprise across the industries have experienced exponential growth of their data. This data may include employee data, medical records, customer information, financial records, backups, etc.
-
+<!--more-->
 Customer wants to keep this data for longer duration. This data can be used for analysis and compliance purpose. In NewIT innovation has more importance over the cost, but the same time customer need cost effective options.
 
 ## **Attribute consideration**
