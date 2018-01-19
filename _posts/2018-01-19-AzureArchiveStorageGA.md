@@ -24,7 +24,7 @@ Customer wants to keep this data for longer duration. This data can be used for 
 To manage costs for your expanding storage needs, it's helpful to organize your data based on attributes like frequency-of-access and planned retention period to optimize costs. Data stored in the cloud can be different in terms of how it is generated, processed, and accessed over its lifetime. Some data is actively accessed and modified throughout its lifetime. Some data is accessed frequently early in its lifetime, with access dropping drastically as the data ages. Some data remains idle in the cloud and is rarely, if ever, accessed once stored.
 
 ### Azure recently introduce the archive access tier. This tier provides
-----
+
 
 *   **Cost-effectiveness**: Archive access tier is our lowest priced storage offering. Customers with long-term storage which is rarely accessed can take advantage of this. 
 
@@ -42,7 +42,7 @@ To manage costs for your expanding storage needs, it's helpful to organize your 
 
 
 ## How this help in Backup and archive
-----
+
 *   This helps to keep pace with the exponential growth of your enterprise data while lowering deployment and management costs. With a low-cost, massively-scalable, tiered backup storage solution in the cloud, you will reduce forecasting risks while transforming capital expenditure commitments to a pay-as-you-go cloud model.
 
 *   Move your backup storage to the cloud to save on infrastructure investments for remote and branch offices. Replace expensive intranets with low-cost internet and archive data in your preferred Azure datacenter region across the globe, so that your data is close to your branch office—maintaining enterprise-grade security for data in transit and at rest.
@@ -53,13 +53,13 @@ To manage costs for your expanding storage needs, it's helpful to organize your 
 
 
 ## About Storage
----
+
 
 [Azure Blob Storage: Hot, cool, and archive storage tiers](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers)
 
 
 ## About Pricing
----
+
 [Azure Storage Pricing in detail](
 https://azure.microsoft.com/en-in/pricing/details/storage/)
 
