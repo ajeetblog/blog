@@ -20,3 +20,8 @@ $resources.ResourceTypes.Where{($_.ResourceTypeName -eq 'virtualMachines')}.Loca
 {% endhighlight %}
 
 ![PS](/images/posts/resoursregionps/psresrg.JPG)
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

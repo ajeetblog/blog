@@ -80,3 +80,9 @@ If you have existing TFVC repos, you can migrate them to Git repos using the git
 |------------------	|------------------------	|------------------------	|
 | CodePlex support 	| CodePlex is supported. 	| CodePlex is supported. 	|
 | Migration path   	| Git-TFS                	| Git-TFS                	|
+
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

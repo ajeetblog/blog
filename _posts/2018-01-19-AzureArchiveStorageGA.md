@@ -64,3 +64,8 @@ To manage costs for your expanding storage needs, it's helpful to organize your 
 https://azure.microsoft.com/en-in/pricing/details/storage/)
 
   [Archive Storage General Availability Pricing, GA pricing effective 1, 2018Pricing effective 1st February 2018](https://azure.microsoft.com/en-in/pricing/details/storage/blobs/archive-ga/)
+
+  ---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

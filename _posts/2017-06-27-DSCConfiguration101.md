@@ -75,3 +75,8 @@ production: true
    #Intall Configuration
    Start-DSCConfiguration -path "c:\DSC\WFInstall" -ComputerName localhost -force -verbose -wait
 {% endhighlight %}
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

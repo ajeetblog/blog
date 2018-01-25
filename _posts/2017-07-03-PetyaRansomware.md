@@ -54,3 +54,9 @@ If you have any questions regarding this alert, please contact your Technical Ac
 
 Thank you,
 Team Microsoft
+
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

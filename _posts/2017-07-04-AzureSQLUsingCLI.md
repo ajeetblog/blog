@@ -56,4 +56,9 @@ Learning Azure CLI is pretty simple specially if you are comfort with PowerShell
 
 # Cleanup the deployment
             az group delete --name myResourceGroup
-{% endhighlight %}
+
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

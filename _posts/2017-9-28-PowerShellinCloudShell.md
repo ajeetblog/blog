@@ -124,3 +124,8 @@ https://docs.microsoft.com/en-in/azure/cloud-shell/pricing
 
 ### Supported browsers
 Cloud Shell is recommended for Chrome, Edge, and Safari. While Cloud Shell is supported for Chrome, Firefox, Safari, IE, and Edge, Cloud Shell is subject to specific browser settings.
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

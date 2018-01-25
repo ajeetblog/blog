@@ -59,3 +59,8 @@ git remote add origin  <<URL>>
 
 
 *See git related post for  workflow, branches, authentication and pull request.*
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

@@ -70,3 +70,9 @@ If you are beginner, lets go step by step. I always recommand to start with the 
 *   *variables*: Values that are used as JSON fragments in the template to simplify template language expressions.
 *    *resources*: Resource types that are deployed or updated in a resource group.
 *   *outputs*: Values that are returned after deployment.
+
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

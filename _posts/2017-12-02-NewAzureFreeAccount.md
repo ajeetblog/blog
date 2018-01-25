@@ -27,3 +27,8 @@ The good thing is here that Azure keeps track of your usage of each service and 
 
    [![Watch video New Azure Free Account](https://sec.ch9.ms/ch9/6a67/8168a264-d235-4cc2-aaf5-98bca6606a67/AzFrAzFreeAcct_960.jpg)](https://sec.ch9.ms/ch9/6a67/8168a264-d235-4cc2-aaf5-98bca6606a67/AzFrAzFreeAcct_high.mp4)
 
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

@@ -100,3 +100,8 @@ Another area where there can be synergy between VMs and Docker containers is in 
 
 
 ***see related post to learn more about container***
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---

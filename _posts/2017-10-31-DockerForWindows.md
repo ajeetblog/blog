@@ -31,3 +31,8 @@ Following PS will give you the installed version
 docker version
 ```
 Will discuss more about containers in upcoming posts.
+
+---
+Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
+
+---
