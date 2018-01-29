@@ -34,10 +34,4 @@ The Azure CLI 2.0 is Azure's new command-line experience for managing Azure reso
             azure network vnet show
 # Cleanup the deployment
             az group delete --name myResourceGroup
-{% endhighlight %}
-
-
----
-Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
-
----
+{%endhighlight%}
