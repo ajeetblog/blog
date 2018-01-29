@@ -3,7 +3,7 @@ layout: post
 title: Git with VSTS - Part 2- Git Repo
 description: "Git and VSTS"
 modified: 2017-08-02
-tags: [VSTS, Git]
+tags: [VSTS, Git, DevOps]
 categories: [DevOps]
 author: Ajeet
 google_analytics:  UA-101864870-1

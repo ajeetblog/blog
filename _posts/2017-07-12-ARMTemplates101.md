@@ -3,7 +3,7 @@ layout: post
 title: IaC - ARM Templates Fundamentals
 description: "IaC - ARM Templates Fundamentals"
 modified: 2017-07-12
-tags: [IaC]
+tags: [IaC, DevOps]
 categories: [Azure]
 author: Ajeet
 google_analytics:  UA-101864870-1

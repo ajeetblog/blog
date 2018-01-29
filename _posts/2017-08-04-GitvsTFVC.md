@@ -3,7 +3,7 @@ layout: post
 title: Git v/s TFVC
 description: "Git"
 modified: 2017-08-04
-tags: [Git]
+tags: [Git, DevOps]
 categories: [DevOps]
 author: Ajeet
 google_analytics:  UA-101864870-1
