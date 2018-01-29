@@ -121,7 +121,3 @@ App Insight
    [![Watch video for more details](https://docs.microsoft.com/en-us/vsts/build-release/_img/index/zero-to-devops-video.png)](https://sec.ch9.ms/ch9/03b8/487fba02-4077-465a-81a8-92cb1c7803b8/190ZerotoDevOps_high.mp4)
         
 
----
-Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
-
----
