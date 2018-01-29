@@ -23,7 +23,7 @@ The Azure CLI 2.0 is Azure's new command-line experience for managing Azure reso
    *   -r or --subnet-cidr. Network mask in CIDR format for subnet.
    *   -l or --location. Azure region where the VNet will be created.
 
-{% highlight powershell %}
+```PowerShell
 # Create a resource group
             az group create   --name $myResourceGroup   --location $location
 # Create a VNET with single subnet
@@ -34,4 +34,4 @@ The Azure CLI 2.0 is Azure's new command-line experience for managing Azure reso
             azure network vnet show
 # Cleanup the deployment
             az group delete --name myResourceGroup
-{%endhighlight%}
+```

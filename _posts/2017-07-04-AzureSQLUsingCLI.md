@@ -17,7 +17,7 @@ Learning Azure CLI is pretty simple specially if you are comfort with PowerShell
 
 <!--more-->
 
-{% highlight powershell %}
+```PowerShell
 # Set an admin login and password for your database
             export adminlogin=ServerAdmin
             export password=ChangeYourAdminPassword1
@@ -57,8 +57,4 @@ Learning Azure CLI is pretty simple specially if you are comfort with PowerShell
 # Cleanup the deployment
             az group delete --name myResourceGroup
 
-
----
-Please do let me know your thoughts/ suggestions/ question in ***disqus*** section.
-
----
+```
