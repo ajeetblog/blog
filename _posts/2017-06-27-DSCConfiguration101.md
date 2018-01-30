@@ -3,7 +3,7 @@ layout: post
 title: PowerShell Desired State Configuration - Part 2
 description: "DSC Configuration 101"
 modified: 2016-12-01
-tags: [DSC, Configuration Management]
+tags: [DSC, Configuration Management, devops]
 categories: [DevOps]
 author: Ajeet
 google_analytics:  UA-101864870-1
