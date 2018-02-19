@@ -1,10 +1,10 @@
 ---
 layout: post
-title: IaC Deployment using VSTS Build and Release 
-description: "IaC Deployment using VSTS Build and Release "
-modified: 2017-10-22
+title: IaC Deployment VSTS Release and GitRepo
+description: "IaC Deployment VSTS Release and GitRepo"
+modified: 2018-02-19
 tags: [IaC, VSTS, CICD]
-categories: [Cloud]
+categories: [Cloud, DevOps]
 author: Ajeet
 ---
 In this post we will discuss, how to setup CD for IaC. IaC code is hosted in GitHub repo.
