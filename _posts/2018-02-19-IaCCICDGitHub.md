@@ -1,7 +1,7 @@
 ---
 layout: post
-title: IaC Deployment VSTS Release and GitRepo
-description: "IaC Deployment VSTS Release and GitRepo"
+title: IaC Deployment using VSTS Release and GitRepo
+description: "IaC Deployment using VSTS Release and GitRepo"
 modified: 2018-02-19
 tags: [IaC, VSTS, CICD]
 categories: [Cloud, DevOps]
