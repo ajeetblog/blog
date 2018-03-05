@@ -7,6 +7,10 @@ tags: [IaC, DevOps, VSTS, CICD]
 categories: [Cloud, DevOps]
 author: Ajeet
 ---
+To build your code or deploy your software you need at least one agent. As you add more code and people, you'll eventually need more.
+
+When your build or deployment runs, the system begins one or more jobs. An agent is installable software that runs one build or deployment job at a time.
+
 In this post we will discuss about VSTS Build agents.
 
 
