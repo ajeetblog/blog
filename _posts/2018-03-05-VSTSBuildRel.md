@@ -1,7 +1,7 @@
 ---
 layout: post
-title: VSTS Build and Release
-description: "VSTS Build and Release"
+title: VSTS Build and Release Agents
+description: "VSTS Build and Release Agents"
 modified: 2018-03-05
 tags: [IaC, DevOps, VSTS, CICD]
 categories: [Cloud, DevOps]
