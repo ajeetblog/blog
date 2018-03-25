@@ -21,7 +21,7 @@ If we talk about the deployment models, we can categorize application deployment
 ***and now we have more optimized Virtualized environment (nested virtualization or O/S virtualization)***
 <!--more-->
 
-> #### Physical server’s environment
+### Physical server’s environment
 
 Before virtualization came into the picture we used to deploy application on physical servers. Physical server machines are powerful but the same time they are costlier one as well. Getting physical server up and running for deployment is never an easy job. 
 Whenever team or project needs to deploy application on server they must raise SR to get the server in place. Finance team raise the purchase order, price negotiations. Once this done server arrived at your datacenter, various Ops team needs time to configure OS, replications, security, networking etc. Server will only available to you once all this exercise is completed.
@@ -30,7 +30,7 @@ Another common issue is time to reboot. It may take 5-10 minutes. Reboot time is
 
 ![](/images/posts/container/deploym1.JPG)
 
-> #### Virtual server's environment (H/W virtualization)
+### Virtual server's environment (H/W virtualization)
 
 
 Virtual Server's/ machines (VMs) are an abstraction of physical hardware turning one server into many servers. The hypervisor allows multiple VMs to run on a single machine. Each VM includes a full copy of an operating system (also known as guest O/S), one or more apps, necessary binaries and libraries - taking up tens of GBs. VMs can also be slow to boot but faster than the physical.
@@ -39,7 +39,7 @@ This model helps us to quickly provision virtualized instance, whenever we need 
 
 ![](/images/posts/container/deploym2.JPG)
 
-> #### CONTAINERS (Nested virtualization or O/S virtualization)
+### CONTAINERS (Nested virtualization or O/S virtualization)
 
 VM’s really change the way we work earlier and help us to achieve agility, but still there is something better can be done here.
 One of the problem that we have with VM that it also has a fill blown O/S. It means that maintainability is still required more efforts. We not only bother about the application security and patching, but need to take care about the O/S security, patching etc.
@@ -50,7 +50,7 @@ Nested virtualization helps here. Containers are an abstraction at the app layer
 
 
 
-> ### Container Isolation
+### Container Isolation
 
 Containers isolate applications from each other on a shared operating system (OS). This approach standardizes application program delivery, allowing apps to run as Linux or Windows containers on top of the host OS (Linux or Windows). Because containers share the same OS kernel (Linux or Windows), they are significantly lighter than virtual machine (VM) images. 
 
@@ -70,7 +70,7 @@ Hyper-V container only supported in Azure, but one hidden advantage here is that
 
 ![](/images/posts/container/wincon2.JPG)
 
-> ### Container v/s VM
+### Container v/s VM
 
 Containers and virtual machines have similar resource isolation and allocation benefits, but function differently because containers virtualize the operating system instead of hardware, containers are more portable and efficient.
 
