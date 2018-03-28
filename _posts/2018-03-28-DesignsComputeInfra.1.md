@@ -7,7 +7,7 @@ tags: [Compute, 70-535, 70-533]
 categories: [Azure]
 author: Ajeet
 ---
-In this post we will discuss about Design VM deployments by leveraging availability sets, fault domains, and update domains in Azure
+In this post we will discuss about Design VM deployments by leveraging availability sets, fault domains, and update domains in Azure.
 
 <!--more-->
 
@@ -21,7 +21,7 @@ In this post we will discuss about Design VM deployments by leveraging availabil
 This event occurs when Azure predicts either hardware or any platform component is going to fail.
 Azure Issue an unplanned hardware maintenance alert to reduce the impact to the VMs hosted on that hardware.
 
--   **What is impact in this case?**
+-   **What is the impact in this case?**
 
     In this scenario Azure uses **Live migration** to migrate VM from failing hardware to healthy physical machine.
 
