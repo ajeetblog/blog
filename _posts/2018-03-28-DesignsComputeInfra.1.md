@@ -54,6 +54,7 @@ Each VM  is assigned to update domain and fault domain by Azure platform when yo
 
 ![source: Microsoft document](https://docs.microsoft.com/en-us/azure/includes/media/virtual-machines-common-manage-availability/ud-fd-configuration.png)
 
+
 ### Update Domain
 -   Update domains are assigned by default to indicate underlying physical hardware that **can be rebooted at the same time**. 
 -   By default we have **5** update domain. we can increase upto **20** using Resource Manager deployment.
@@ -86,6 +87,7 @@ All VMs nearly identical and serve the same purpose for your application, it's r
 If you place two different tiers in the same availability set, **all virtual machines in the same application tier can be rebooted at once**. By configuring at least two virtual machines in an availability set for each tier, you guarantee that at least one virtual machine in each tier is available.
 
 ![source: Microsoft document](https://docs.microsoft.com/en-us/azure/includes/media/virtual-machines-common-manage-availability/application-tiers.png)
+
 
 **load balancer with availability sets**
 
