@@ -7,9 +7,11 @@ tags: [Compute, 70-535, 70-533]
 categories: [Azure]
 author: Ajeet
 ---
+In this post we will discuss about Design VM deployments by leveraging availability sets, fault domains, and update domains in Azure
 
+<!--more-->
 
-# Design VM deployments by leveraging availability sets, fault domains, and update domains in Azure
+# Design VM deployments by leveraging availability sets, fault domains, and update domains in Azure 
 
 **Part - 1**
 ## Understand the Maintenance and Downtime
