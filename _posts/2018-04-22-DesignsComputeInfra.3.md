@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design VM Scale Sets
+title: Design VM Scale Sets - 1
 description: "Design Compute Infrastructure-   Design solutions using virtual machines - design VM Scale Sets"
 modified: 2018-04-22
 tags: [Compute, 70-535, 70-533, VM Scale set]
@@ -16,6 +16,8 @@ With virtual machine scale sets, you can build large-scale services for areas su
  In this post we will discuss about design VM Scale Sets.
 
  <!--more-->
+
+ ![](https://azurecomcdn.azureedge.net/cvt-6c0998fa2dcfbce404ac54184e6cf80e82ea2072003230ad144d0a6dafb655a4/images/page/services/virtual-machine-scale-sets/02-scale.png)
  ## Why Scale sets
 To provide redundancy and improved performance, applications are typically distributed across multiple instances. 
 
