@@ -21,6 +21,7 @@ With virtual machine scale sets, you can build large-scale services for areas su
 
 
 ## Why Scale sets
+
 To provide redundancy and improved performance, applications are typically distributed across multiple instances. 
 
 - With Scale sets you can create **identical, Load balanced VM** and managed them centrally. 
