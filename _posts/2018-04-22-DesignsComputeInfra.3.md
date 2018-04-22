@@ -18,6 +18,7 @@ With virtual machine scale sets, you can build large-scale services for areas su
  <!--more-->
 
  ![](https://azurecomcdn.azureedge.net/cvt-6c0998fa2dcfbce404ac54184e6cf80e82ea2072003230ad144d0a6dafb655a4/images/page/services/virtual-machine-scale-sets/02-scale.png)
+ 
  ## Why Scale sets
 To provide redundancy and improved performance, applications are typically distributed across multiple instances. 
 
