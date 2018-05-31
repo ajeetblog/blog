@@ -13,7 +13,7 @@ author: Ajeet
 
 SoapUI is the world's leading Functional Testing tool for SOAP and REST testing. With its easy-to-use graphical interface, and enterprise-class features, SoapUI allows you to easily and rapidly create and execute automated functional, regression, and load tests. In a single test environment, SoapUI provides complete test coverage - from SOAP and REST-based Web services, to JMS enterprise messaging layers, databases, Rich Internet Applications, and much more. 
 
-
+<!--more-->
 
    [![Watch video SOAP UI](/images/others/soapui.JPG)](https://youtu.be/jcOJPey7aMU)
 
