@@ -15,9 +15,6 @@ SoapUI is the world's leading Functional Testing tool for SOAP and REST testing.
 
 <!--more-->
 
-   [![Watch video SOAP UI](/images/others/soapui.JPG)](https://youtu.be/jcOJPey7aMU)
-
-
 ## SoapUI extension for VSTS
 
 This extension can be used to run SoapUI script or to make SoapUI available for other tasks (as an environment variable).
