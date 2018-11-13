@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Deploy SonarQube as Azure Web Container 
-description: "Deploy SonarQube as Azure Web Container"
+title: Deploy SonarQube as Azure Web App Container 
+description: "Deploy SonarQube as Azure Web App Container"
 modified: 2018-11-13
 tags: [SonarQube, AzureWebApps, Azure SQL, IaC]
 categories: [Azure, SonarQube]
