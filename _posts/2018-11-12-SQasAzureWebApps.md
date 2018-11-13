@@ -11,7 +11,7 @@ author: Ajeet
 
 # Deploy SonarQube as PaaS (Azure Web App)
 
-We all know the power of PaaS and its edge over IaaS.  Clinets are now looking for more and more PaaS and SaaS based solutions. Its really an intligent idea to deploy SonarQube as PaaS (Azure Web App Container).
+We all know the power of PaaS and its edge over IaaS.  Clients are now looking for more and more PaaS and SaaS based solutions. It’s really an intelligent idea to deploy SonarQube as PaaS (Azure Web App Container).
 
 <!--more-->
 
