@@ -46,6 +46,7 @@ One of the problem that we have with VM that it also has a fill blown O/S. It me
 
 Nested virtualization helps here. Containers are an abstraction at the app layer that packages code and dependencies together. Multiple containers can run on the same machine and share the OS kernel with other containers, each running as isolated processes in user space. Containers take up less space than VMs (container images are typically tens of MBs in size), and start almost instantly.
 
+
 ![](/images/posts/container/deploym3.JPG)
 
 
@@ -53,6 +54,7 @@ Nested virtualization helps here. Containers are an abstraction at the app layer
 ## Container Isolation
 
 Containers isolate applications from each other on a shared operating system (OS). This approach standardizes application program delivery, allowing apps to run as Linux or Windows containers on top of the host OS (Linux or Windows). Because containers share the same OS kernel (Linux or Windows), they are significantly lighter than virtual machine (VM) images. 
+
 
 ![](/images/posts/container/containeriso1.JPG)
 
@@ -68,7 +70,9 @@ However, Hyper-V containers are less lightweight than regular Docker containers.
 Hyper-V container only supported in Azure, but one hidden advantage here is that we can use Hyper-V container in Win 10 machine. So as a developer we can easily use them.***
 
 
+
 ![](/images/posts/container/wincon2.JPG)
+
 
 ## Container v/s VM
 
