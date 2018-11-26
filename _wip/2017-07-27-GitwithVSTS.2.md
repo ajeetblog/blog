@@ -66,11 +66,12 @@ Above cmd will do 2 things.
 	• Reverted the files in your working directory back to the snapshot that master points to. 
 <<image>>
 
-Let's try to make a direct commit to master branch. This means your project history has diverged. Changes that you made in your dev and master branch are isolated in separated branch. You can switch back and forth between the branches and merge them once you are ready.
+
+Let's try to make a direct commit to master branch. This means your project history has diverged. Changes that you made in your dev and master branch are isolated in separated branch. You can switch back and forth between the branches and merge them once y ou are ready.
 
 ### git log
 ```PowerShell
-Git log --online --decorate --graph --all
+Git log --online --decorate --graph --all 
 ```
 Above cmd will print history of your commits.
 

@@ -51,12 +51,15 @@ Nested virtualization helps here. Containers are an abstraction at the app layer
 
 
 
+
 ## Container Isolation
 
 Containers isolate applications from each other on a shared operating system (OS). This approach standardizes application program delivery, allowing apps to run as Linux or Windows containers on top of the host OS (Linux or Windows). Because containers share the same OS kernel (Linux or Windows), they are significantly lighter than virtual machine (VM) images. 
 
 
+
 ![](/images/posts/container/containeriso1.JPG)
+
 
 
 When running regular containers, the isolation is not as strong as when using plain VMs. If you need further isolation than the standard isolation provided in regular containers (like in regular Docker images), then, Microsoft offers and additional choice which is Hyper-V containers. In this case, each container runs inside of a special virtual machine. This provides kernel level isolation between each Hyper-V container and the container host. Therefore, Hyper-V containers provide better isolation, with a little more overhead. 
@@ -71,7 +74,9 @@ Hyper-V container only supported in Azure, but one hidden advantage here is that
 
 
 
+
 ![](/images/posts/container/wincon2.JPG)
+
 
 
 ## Container v/s VM
