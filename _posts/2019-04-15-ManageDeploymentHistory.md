@@ -12,9 +12,13 @@ production: true
 ---   
 Recently, I have faced an issue, where our CD pipeline start failing (in Dev Envrionment, few second back things were working fine).
 
+We found that, there is no issue with code but deployment history is casing the issue. 
+
+Deployment histories are very important. They not only help to keep track of changes but also useful for audit and compliance purposes.
+<!--more-->
+
 As per MS documentation, RG can only keep the history of the last 800 deployments. You can not deploy/re-deploy anything once the deployment history reaches 800. 
 
-<!--more-->
 
 **Error**
 ![](../images/posts/iac/errordeploymenthistory.JPG)
