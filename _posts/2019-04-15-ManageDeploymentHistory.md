@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Manage Deployment History
+title: Manage Resource Group Deployment History
 description: "Manage Azure Resource Group Deployment History"
 modified: 2019-04-15
 tags: [ARM]
