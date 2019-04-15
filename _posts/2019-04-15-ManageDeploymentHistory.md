@@ -12,7 +12,7 @@ production: true
 ---   
 Recently, I have faced an issue, where our CD pipeline start failing (in Dev Envrionment, few second back things were working fine).
 
-We found that, there is no issue with code but deployment history is casing the issue. 
+We found that, there is no issue with code but it was due to resource deployment history quota against resoruce group. 
 
 Deployment histories are very important. They not only help to keep track of changes but also useful for audit and compliance purposes.
 <!--more-->
