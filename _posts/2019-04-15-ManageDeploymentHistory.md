@@ -10,15 +10,16 @@ google_analytics:  UA-101864870-1
 google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
 production: true
 ---   
-Recently, I have faced an issue, where our CD pipeline start failing into one environment and my team was not able to deploy Azure resource into the 'Resource Group', few second back things were working fine.
+Recently, I have faced an issue, where our CD pipeline start failing into one environment(few second back things were working fine).
 
-After investing the issue we found that Resource Group have the limitation on deployment history.
+As per MS documentation, RG can only keep the history of the last 800 deployments. You can not deploy/re-deploy anything once the deployment history reaches 800. 
 
 <!--more-->
+
+**Error**
 ![](../images/posts/iac/errordeploymenthistory.JPG)
 
 
-As per MS documentation, RG can only keep the history of the last 800 deployments. You can not deploy/re-deploy anything once the deployment history reaches 800. 
 
 To solve this we need to use a simple but very useful PS
 
