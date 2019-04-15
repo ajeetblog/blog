@@ -15,6 +15,8 @@ Recently, I have faced an issue, where our CD pipeline start failing into one en
 After investing the issue we found that Resource Group have the limitation on deployment history.
 
 <!--more-->
+![](../images/posts/iac/errordeploymenthistory.JPG)
+
 
 As per MS documentation, RG can only keep the history of the last 800 deployments. You can not deploy/re-deploy anything once the deployment history reaches 800. 
 
