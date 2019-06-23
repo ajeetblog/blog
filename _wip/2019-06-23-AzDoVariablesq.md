@@ -7,5 +7,7 @@ in this post, I will talk about how you can plan and design the AzDo variables.
 
 ## Understand the scope
 
+### Variables v/s Variables Groups
+
 ## Plan for security and performance
 
