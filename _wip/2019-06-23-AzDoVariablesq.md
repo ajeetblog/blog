@@ -7,7 +7,15 @@ in this post, I will talk about how you can plan and design the AzDo variables.
 
 ## Understand the scope
 
-### Variables v/s Variables Groups
+### Variables v/s Variable Groups
 
 ## Plan for security and performance
+
+### Securing AzDo variables
+
+Use a secure option:
+Linking Key-Vault:
+
+
+
 
