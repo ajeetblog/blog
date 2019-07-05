@@ -13,8 +13,8 @@ production: true
 
 # Plan and design and manage AzDo variables 
 
-AzDo variables play a very important role and provide a convenient way to get key bits of data into various parts of the pipelines.
-in this post, I will talk about how you can plan, design and manage the AzDo variables and leverage this feature more effectively. 
+AzDo variables play an important role and provide a convenient way to get key bits of data into various parts of the pipelines.
+In this post, I will talk about how you can plan, design and manage the AzDo variables and leverage this feature more effectively. 
 
 <!--more-->
 
