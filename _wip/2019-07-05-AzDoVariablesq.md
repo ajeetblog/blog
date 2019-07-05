@@ -5,9 +5,19 @@ in this post, I will talk about how you can plan and design the AzDo variables.
 
 <!--more-->
 
-## Understand the scope
+## Understand the scopes
 
-### Variables v/s Variable Groups
+* Stage/ Environment level (within pipeline)
+* Release (within pipeline)
+* Stage/ Environment level (across pipelines)
+* Release (across pipelines)
+
+
+### Pipeline Variables v/s Variable Groups
+
+#### Predefined Variables values
+
+#### Create Runtime Variables
 
 ## Plan for security and performance
 
