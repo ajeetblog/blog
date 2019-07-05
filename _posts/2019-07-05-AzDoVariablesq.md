@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Azure DevOps Pipeline Variables
-description: "Manage your Azure DevOps Pipeline Variables"
+title:  Manage Azure DevOps Pipelines Variables
+description: "Manage your Azure DevOps pipelines Variables"
 modified: 2019-07-05
 tags: [DevOps, Azure DevOps, VSTS]
 categories: [DevOps]
@@ -11,9 +11,9 @@ google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
 production: true
 ---
 
-# Plan and design AzDo variables 
+# Plan and design and manage AzDo variables 
 
-AzDo variables play a very important role and provide a convenient way to get key bits of data into various parts of the pipeline.
+AzDo variables play a very important role and provide a convenient way to get key bits of data into various parts of the pipelines.
 in this post, I will talk about how you can plan, design and manage the AzDo variables and leverage this feature more effectively. 
 
 <!--more-->
@@ -36,7 +36,7 @@ In this scenario, you know the key - value  (actual or by referring other variab
 
 ### **Runtime variables**
 
-Runtime variables play an important role and provide a dynamic nature to your pipeline.
+Runtime variables play an important role and provide a dynamic nature to your pipelines.
 
 You can leverage this feature where you need to get the keys, generated as the output of the one task and required as input in other tasks/s.
 
@@ -52,38 +52,38 @@ You can also use the Batch or Shell scripts to generate such variables.
 
 [Read more about Runtime variables](https://docs.microsoft.com/en-us/azure/devops/pipelines/release/variables?view=azure-devops&tabs=powershell)
 
-## Understand the scopes (Pipeline Variables v/s Variable Groups)
+## Understand the scopes (pipelines Variables v/s Variable Groups)
 
 <img src="../images/posts/azdo/rgscope.JPG" width="500">
 
 **Fig2**: Variable Scope
 
-### **With-in Pipeline**
+### **With-in pipeline**
 
 **Stage/ Environment v/s Release**
 
 You can define the variable scope either across the release or specific stage/ environment. Please refer to Figure 2
 
 
-### **Across Pipelines**
+### **Across pipelines**
 
-Scope mention in [With-in Pipeline](with-in-pipeline) section works fine if you have a single Release pipeline. But there are use cases where CI-CD designed at the services level. This means you need to have individual CI-CD for individual services (depends on the requirements).
+Scope mention in [With-in pipelines](with-in-pipelines) section works fine if you have a single Release pipeline. But there are use cases where pipelines designed at the services level. This means you need to have individual pipelines for individual services (depends on the requirements).
 
 For such scenarios, you can leverage the Variable Group feature.
-Use a variable group to store values that you want to control and make available across multiple pipelines. Variable groups are defined and managed in the Library page under Pipelines.
+Use a variable group to store values that you want to control and make available across multiple pipelines. Variable groups are defined and managed in the Library page under pipelines.
 
 [Read more about Variable Groups](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/variable-groups?view=azure-devops&tabs=yaml)
 
 
 ### **Across the Projects**
 
-There are use cases, where teams need key-values across the projects and such keys are managed by some different team and you don't want to give them access to modify Pipeline. Even its practically difficult for them to modify values on individual pipelines.
+There are use cases, where teams need key-values across the projects and such keys are managed by some different team and you don't want to give them access to modify pipelines. Even its practically difficult for them to modify values on individual pipelines.
 
 Example: Software Product Keys
 
-In such a case, you can leverage Azure Key-Vault integration with pipeline variables.
+In such a case, you can leverage Azure Key-Vault integration with pipelines variables.
 
-## Azure Key-Vault integration with Azure Pipeline/s
+## Azure Key-Vault integration with Azure pipelines/s
 
 Cloud applications and services use cryptographic keys and secrets to help keep information secure. Azure Key Vault safeguards these keys and secrets. When you use Key Vault, you can encrypt authentication keys, storage account keys, data encryption keys, .pfx files, and passwords by using keys that are protected by hardware security modules (HSMs).
 
