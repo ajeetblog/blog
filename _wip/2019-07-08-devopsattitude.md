@@ -1,1 +1,2 @@
-DevOps is not meant to fail until Process and Product backed by People with the right attitude and continuous improvement..
+DevOps is not meant to fail until Process and Product backed by People with the right attitude and continuous improvement by continuous learning.
+It's not much important how you have started your journey but how consistently you improve.
