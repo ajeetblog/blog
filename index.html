@@ -12,8 +12,6 @@ layout: default
         </h2>
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
           {% assign user = site.data.authors | where: "author", post.author %}
-          {% if post.author %} • {% for author in user %} {{ author.name }}{% endfor %}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}
-          | {% include reading-time.html%}
         </p>
         
         <p class="post-meta">
