@@ -1,7 +1,6 @@
 {% capture words %}
-{{ content | number_of_words | minus: 150 }}
+{{ content | number_of_words }}
 {% endcapture %}
-{% unless words contains '-' %}
 {% if words < 150  %}
   1  minute to read
 {% else %}  
