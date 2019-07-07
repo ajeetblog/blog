@@ -8,7 +8,7 @@ layout: default
     <p class="post-meta"><i class="fa fa-calendar text-darkred"></i> {{ page.date | date: "%b %-d, %Y" }}
       {% if page.author %} | {% for author in user %} <i class="fa fa-user text-success"></i> <a href="#author"><strong>{{ author.name }}</strong></a>{% endfor %} {% endif %} 
     | {% include reading-time.html %}
-    </p>
+    </p><br/>
     
     <p class="post-meta">{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     <p class="post-meta">
