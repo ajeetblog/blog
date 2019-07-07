@@ -2,7 +2,7 @@
 {{ content | number_of_words }}
 {% endcapture %}
 {% if words < 150  %}
-  1  minute to read
+ { 1  minute to read }
 {% else %}  
 {{ words | plus: 150 | divided_by: 150 | append: ' minutes to read' }}
 {% endunless %}
