@@ -18,5 +18,8 @@ In this post, I will show how we can configure branch policies.
 
 ### Watch demo for more details
  [  ![](../images/others/enableci.JPG)](https://youtu.be/MXoU-U6SOX0)
-        
 
+
+https://docs.microsoft.com/en-us/azure/devops/repos/git/branch-policies-overview?view=azure-devops         
+https://www.perforce.com/blog/vcs/8-tips-effective-branch-management
+https://docs.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance?view=azure-devops
