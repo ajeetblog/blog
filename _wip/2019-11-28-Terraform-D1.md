@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Learn Terraform Day 1
