@@ -11,7 +11,7 @@ google_verify: GKeGILLEWvsJwRfdYMqqoMDZKOBZPWIWpHP9K2uIXHI
 production: true
 ---
 
-There are a lot of blogs/articles are available to learn the Terraform. Here, I
+There are a lot of blogs/articles available to learn the Terraform. Here, I
 am sharing my learning notes and references.
 I have been using ARM templates (simple and complex), for the last 4-5
 years. I feel writing Terraform code is easy, helps to be lean and
