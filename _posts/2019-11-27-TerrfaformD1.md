@@ -2,7 +2,7 @@
 layout: post
 title: Learn Terraform Day 1
 description: "Terraform Learning Notes"
-modified: 2019-11-28
+modified: 2019-11-27
 tags: [Terraform, IaC]
 categories: [DevOps]
 author: Ajeet
