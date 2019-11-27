@@ -20,27 +20,27 @@ Like every other technology/ architecture, both Terraform and ARM
 Templates have their pros and cons.
 <!--more-->
 
-1. ##Multivendor##: The advantage of Terraform is it's vendor-neutral.
+1. **Multivendor**: The advantage of Terraform is it's vendor-neutral.
 Whereas other cloud-native IaC tools ( ARM template or AWS cloud
 formation) work well with the respective vendor but not with others.
 
-2. ##Syntex/ Language##: Azure ARM templates and AWS cloud formation
+2. **Syntex/ Language**: Azure ARM templates and AWS cloud formation
 uses the JSON as its syntax language. Terraform uses the Hashicorp
 Configuration Language (HCL), which is more human-readable as
 compared to JSON.
 
-3. ##Native Support##: Though most of the cloud vendors support the
+3. **Native Support**: Though most of the cloud vendors support the
 terraform, but there are a couple of features/ functions/
 configurations which is only supported through the native tools.
 
-4. ##Modularity##: Terraform and ARM template follow the modularity
+4. **Modularity**: Terraform and ARM template follow the modularity
 principle. Nested templates are the Azure way to modularize the
 infrastructure code. But the nested templates are not accessible
 through the local system by Azure Resource Manager. You need to
 host them on external storage (e.g. Azure storage or GitHub etc.).
 However, Terraform modules can be accessed locally.
 
-5. ##Predictability##: Terraform Plan feature helps you to predict the
+5. **Predictability**: Terraform Plan feature helps you to predict the
 deployment outcome upfront. This will helps to prevent any
 unwanted actions that might cause service disruptions. ARM
 templates 'validate' commands only helps you to validate the syntax 
