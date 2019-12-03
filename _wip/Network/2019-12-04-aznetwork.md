@@ -17,10 +17,13 @@ If you are preparing for Azure Certifications Z-300) or new to designing space, 
 
 <!--more-->
 
-VNET Design basic considrations:
+**VNET Design basic considrations**:
 1. Create Subnets based on workload groupings
 2. Design NSGs at subnet level 
 3. If customer is looking for enterprise grade firewall applicances use Network Virtual Applicances (NVA) and User-defined routing (UDR) to further custmize the traffic.
 4. Implment Site-to-Site (S2S) and/ or Point-to-Site (P2S) VPN connectivity between on On-Prem and Cloud.
+
+
+
 
 > ***disclaimer***: References and images are taken from various MS documentations.
