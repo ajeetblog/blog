@@ -12,8 +12,14 @@ production: true
 ---
 
 
+## List Tags you already have
+
+### CLI
+
+### PowerShell
 
 ## Create Tags at resource level
+
 
 ### CLI
 
