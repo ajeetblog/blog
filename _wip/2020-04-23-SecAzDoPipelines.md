@@ -8,10 +8,10 @@ categories: [Azure, DevOps]
 author: Ajeet
 ---
 
-## Securing Azure DevOps Pipelines using Azure Key Vault  
+## Secure your secretes in Azure DevOps Pipelines using Azure Key Vault  
 
 
-Security is an integral part of the Application Life Cycle Management and needs to implement right from the beginning. Its everyone's responsibility to ensure security compliance in every process and each phase.
+Security is an integral part of the Application Life Cycle Management and must be implemented right from the beginning. Its everyone's responsibility to ensure security compliance in every process and each phase.
 
 ![](https://media1.giphy.com/media/JpGRoqJXTqv4f1mrJb/100.webp?cid=ecf05e47d6cfd92788dfc2cd326e5a4af621da17e69257b7&rid=100.webp)
 
