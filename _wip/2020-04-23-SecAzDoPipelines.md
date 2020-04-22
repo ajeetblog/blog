@@ -3,7 +3,7 @@ layout: post
 title: Securing Azure DevOps Pipelines
 description: "Securing Azure DevOps Pipelines using Key Vault"
 modified: 2020-04-23
-tags: [ Azure, YML Pipelines, KeyVault]
+tags: [ Azure, YML Pipelines, KeyVault, AZ-400]
 categories: [Azure, DevOps]
 author: Ajeet
 ---
@@ -16,7 +16,7 @@ In this post, I will talk on how to ensure security compliance in your Azure Dev
 
 <!--more-->
 
-**Azure Key Vault** is a tool for securely storing and accessing secrets. 
+**Azure Key Vault** is a tool for securely storing and accessing secrets.  Some of the features are:
 
 **Secrets Management** - Azure Key Vault can be used to Securely store and tightly control access to tokens, passwords, certificates, API keys, and other secrets.
 
@@ -24,6 +24,11 @@ In this post, I will talk on how to ensure security compliance in your Azure Dev
 
 **Certificate Management** - Azure Key Vault is also a service that lets you easily provision, manage, and deploy public and private Transport Layer Security/Secure Sockets Layer (TLS/SSL) certificates for use with Azure and your internal connected resources.
 
-**Store secrets backed by Hardware Security Modules** - The secrets and keys can be protected either by software or FIPS 140-2 Level 2 validated HSMs
+**Store secrets backed by Hardware Security Modules** - The secrets and keys can be protected either by software or FIPS 140-2 Level 2 validated HSMs.
 
-read more about [**Azure Key Vault**](https://docs.microsoft.com/en-in/azure/key-vault/general/overview).
+> read more about [**Azure Key Vault**](https://docs.microsoft.com/en-in/azure/key-vault/general/overview).
+
+You can leverage one of the following approaches to integrate Azure Key Vault with pipelines.
+
+-   **Variable group**
+-   **Azure Key Vault task**
