@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Securing Azure DevOps Pipelines
+title: Secure your secretes in Azure DevOps Pipelines
 description: "Securing Azure DevOps Pipelines using Key Vault"
 modified: 2020-04-23
 tags: [ Azure, YML Pipelines, KeyVault, AZ-400]
@@ -10,9 +10,14 @@ author: Ajeet
 
 ## Securing Azure DevOps Pipelines using Azure Key Vault  
 
-Security is the integrated part of the Application Life Cycle Management. As a responsible member of the team delivering the security practices in every process and each phase is your responsibility.
 
-In this post, I will talk on how to ensure security compliance in your Azure DevOps pipelines (YML based) when you are dealing with secrets and certificates.
+Security is an integral part of the Application Life Cycle Management and needs to implement right from the beginning. Its everyone's responsibility to ensure security compliance in every process and each phase.
+
+![](https://media1.giphy.com/media/JpGRoqJXTqv4f1mrJb/100.webp?cid=ecf05e47d6cfd92788dfc2cd326e5a4af621da17e69257b7&rid=100.webp)
+
+In this post, I will talk on how to ensure security in terms of Key, Secrete, Certificate management as part of your Azure DevOps pipelines (YML based).
+
+
 
 <!--more-->
 
