@@ -51,14 +51,28 @@ Variable groups are also used to store secrets and other values that might need 
 
 Let's do it
 
-- Create a Key Vault
-- Add some Keys
-- Create a Variable Group
-- Add key-value
-- Integrate Key Vault
-- Add variable group in pipeline
-- Add a task to display variable
+1. Create a Key Vault
+
+2. Add some Keys
+
+3. Create a Variable Group
+
+4. Add key-value
+
+5. Integrate Key Vault
+
+6. Add variable group in pipeline
+
+7. Add a task to display variable
+
+### Azure Key Vault Task
 
 The above approach requires manual intervention to link Key vault with the pipeline.
 
-### Azure Key Vault Task
+Follow steps 1 to 4 mention in the previous approach.
+
+1. Add variables in the pipeline YML file.
+
+2. Add Azure Key Vault task
+
+3. Add display task
