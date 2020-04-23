@@ -17,7 +17,7 @@ Security is an integral part of the Application Life Cycle Management and must b
 <!--more-->
 The application might need software keys, secrets, certificate during the deployment process.  
 
-CI CD pipeline pushes your app into different environments, but as a good DevSecOps architect, you wanted to ensure separation of concern and responsibilities. If secrets are stored in code in an appsettings.json file, then you're creating a security risk.
+CI CD pipeline pushes your app into different environments, but as a good DevSecOps architect, you wanted to ensure **separation of concern and responsibilities**. *If secrets are stored in code in an appsettings.json file, then you're creating a security risk*.
 
 In this post, I will talk on how to ensure security in terms of Key, Secrete, Certificate management as part of your Azure DevOps pipelines (YML based). 
 
