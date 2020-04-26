@@ -77,7 +77,8 @@ Now you can select the keys that you wanted to be avaiable for pipeline as varia
 
 ![Link Variable Group](/images/posts/azdo/filter.JPG)
 
-4. Add key-value
+3. Create Pipeline\
+*for this demo, I have choosen the default starter pipeline.*
 
 5. Integrate Key Vault
 
@@ -93,6 +94,62 @@ Follow steps 1 to 4 mention in the previous approach.
 
 1. Add variables in the pipeline YML file.
 
-2. Add Azure Key Vault task
+```YML
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
 
-3. Add display task
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
+```
+To integrate the pipeline with Variable group, you need to add variables in the pipeline
+
+Under variables section, added group and local variables. 
+> Learn more [variables in YML pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch)
+
+```YML
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+# variables to support local and Variable group
+variables:
+  - group: kv-pipelines
+  - name: local
+    value: 'Hello World'
+    
+steps:
+- script: |
+    echo Refer web to learn more
+    echo $(local)
+  displayName: 'Local Variables'
+
+- script: |
+    echo Secure value from KV
+    echo Key 1 $(key1)
+    echo Key 2 $(key2)
+  displayName: 'Secure Variables'
+```
+
+While defining the variables name, you need to ensure that they are not repeated. In case of duplicate Keys, last one will have precednet over other. 
+
+Once you define the keys, Azure DevOps will take care of getting them. Any vaules coming from Key Vault will not be displayed as simple text at any point of time and can only be updatd by the users who have RBAC permission inside Key vault access policies.
