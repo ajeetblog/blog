@@ -68,15 +68,16 @@ Variable groups are also used to store secrets and other values that might need 
 
   2.2 Select Subscription and Key Vault: You need to authroize the subscription. 
 
-![authorize kv](/images/posts/azdo/kvpipeline3.JPG)
+![Key vault and Secrets](/images/posts/azdo/kvpipeline3.JPG)
+
 
 Select and authorize the Key Vault, this action will create a service principal and it to Key Vault access policies with Get and List permission only.
 
-![select kv](/images/posts/azdo/selectkv.JPG)
+![Key vault and Secrets](/images/posts/azdo/selectkv.JPG)
 
 Now you can select the keys that you wanted to be avaiable for pipeline as variable.
 
-![choose keys](/images/posts/azdo/filter.JPG)
+![Key vault and Secrets](/images/posts/azdo/filter.JPG)
 
 3. Create Pipeline\
 *for this demo, I have choosen the default starter pipeline.*
@@ -139,4 +140,4 @@ steps:
 
 While defining the variables name, you need to ensure that they are not repeated. In case of duplicate Keys, last one will have precednet over other. 
 
-Once you define the keys, Azure DevOps will take care of getting them. Any vaules coming from Key Vault will not be displayed as simple text at any point of time and can only be updatd by the users who have RBAC permission inside Key vault access policies.
+Once you define the keys, Azure DevOps will take care of getting them from respective soruces. Any vaules coming from Key Vault will not be displayed as simple text at any point of time and can only be updatd by the users who have RBAC permission inside Key vault access policies.
