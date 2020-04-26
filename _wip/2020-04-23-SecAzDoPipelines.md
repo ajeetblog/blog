@@ -126,7 +126,7 @@ variables:
     
 steps:
 - script: |
-    echo Refer web to learn more
+    echo Local variable
     echo $(local)
   displayName: 'Local Variables'
 
