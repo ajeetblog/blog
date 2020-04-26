@@ -47,6 +47,7 @@ Some of the features are:
 You can choose one of the following approach to integrate Azure Key Vault with pipelines.
 
 - [**Variable groups**](#variables-groups)
+
 - [**Azure Key Vault Task**](#azure-key-vault-task)
 
 ### Variable Groups
@@ -67,32 +68,18 @@ Variable groups are also used to store secrets and other values that might need 
 
   2.2 Select Subscription and Key Vault: You need to authroize the subscription. 
 
- ![Link Variable Group](/images/posts/azdo/kvpipeline3.JPG)
+ ![authorize kv](/images/posts/azdo/kvpipeline3.JPG)
 
 Select and authorize the Key Vault, this action will create a service principal and it to Key Vault access policies with Get and List permission only.
 
-  ![Link Variable Group](/images/posts/azdo/selectkv.JPG)
+  ![select kv](/images/posts/azdo/selectkv.JPG)
 
 Now you can select the keys that you wanted to be avaiable for pipeline as variable.
 
-![Link Variable Group](/images/posts/azdo/filter.JPG)
+![choose keys](/images/posts/azdo/filter.JPG)
 
 3. Create Pipeline\
 *for this demo, I have choosen the default starter pipeline.*
-
-5. Integrate Key Vault
-
-6. Add variable group in pipeline
-
-7. Add a task to display variable
-
-### Azure Key Vault Task
-
-The above approach requires manual intervention to link Key vault with the pipeline.
-
-Follow steps 1 to 4 mention in the previous approach.
-
-1. Add variables in the pipeline YML file.
 
 ```YML
 # Starter pipeline
