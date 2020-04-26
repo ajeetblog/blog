@@ -18,15 +18,15 @@ Security is an integral part of the Application Life Cycle Management and must b
 
 ## Problem Statement
 
-The application might need software keys, secrets, certificate during the deployment process.  
-
 CI CD pipeline pushes your app into different environments, but as a good DevSecOps architect, you wanted to ensure **separation of concern and responsibilities**. *If secrets are stored in code in an appsettings.json file, for example, then you're creating a security risk*.
 
 In this post, I will talk on how to ensure security in terms of ***Key, Secrete, Certificate*** management as part of your Azure DevOps pipelines (YML based). 
 
-### Azure Key Vault
+### Leveraging Azure Key Vault
 
-- **Azure Key Vault** is a tool for securely storing and accessing secrets.  Some of the features are:
+To ensure security compliance minimizing the risk and management overhead, you need to store sensitive information into a different component.  By design, this component must be responsible for storing and securely retrieving information. 
+
+Azure Key Vault allows you to manage the separation of concern using industry-standard security practices. Some of the features are:
 
 - **Secrets Management** - Azure Key Vault can be used to Securely store and tightly control access to tokens, passwords, certificates, API keys, and other secrets.
 
