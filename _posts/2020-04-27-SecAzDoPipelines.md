@@ -3,7 +3,7 @@ layout: post
 title: Secure secretes in Azure DevOps Pipelines
 description: "Securing Azure DevOps Pipelines using Key Vault"
 modified: 2020-04-27
-tags: [ Azure, YML Pipelines, KeyVault, AZ-400]
+tags: [ Azure, YML Pipelines, KeyVault, AZ-400, DevSecOps]
 categories: [Azure, DevOps]
 author: Ajeet
 ---
