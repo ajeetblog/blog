@@ -2,7 +2,7 @@
 layout: post
 title: Secure your secretes in Azure DevOps Pipelines
 description: "Securing Azure DevOps Pipelines using Key Vault"
-modified: 2020-04-23
+modified: 2020-04-27
 tags: [ Azure, YML Pipelines, KeyVault, AZ-400]
 categories: [Azure, DevOps]
 author: Ajeet
@@ -72,7 +72,7 @@ Variable groups are also used to store secrets and other values that might need 
 
 ![authorize](/images/posts/azdo/selectkv.JPG)
 
-5. Now you can select the keys that you wanted to be avaiable for pipeline as variable.
+5. Select the keys that you wanted to be avaiable for pipeline as variable.
 
 ![filter](/images/posts/azdo/filter.JPG)
 
