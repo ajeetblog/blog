@@ -158,6 +158,8 @@ b. Add Service principal to Key Vault access policy with List and Get perissions
 
 ![Access Policy](/images/posts/azdo/accesspol.JPG)
 
+![Post Add](/images/posts/azdo/postadd.JPG)
+
 c. Following task will link the Azure Key Vault with pipeline. Subsequent task can refer the keys.
 
 ```YML
