@@ -14,8 +14,6 @@ Security is an integral part of the Application Life Cycle Management and must b
 
 In this post, I will talk on how to ensure security in terms of ***Key, Secrete, Certificate*** management as part of your Azure DevOps pipelines (YML based). 
 
-![ ](https://media1.giphy.com/media/JpGRoqJXTqv4f1mrJb/100.webp?cid=ecf05e47d6cfd92788dfc2cd326e5a4af621da17e69257b7&rid=100.webp)
-
 <!--more-->
 
 ## Problem Statement
@@ -100,6 +98,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 ```
+
 To integrate the pipeline with Variable group, you need to add variables in the pipeline
 
 Under variables section, added group and local variables. 
@@ -135,6 +134,8 @@ steps:
   displayName: 'Secure Variables'
 ```
 
-While defining the variables name, you need to ensure that they are not repeated. In case of duplicate Keys, last one will have precednet over other. 
+While defining the variables name, you need to ensure that they are not repeated. In case of duplicate Keys, last one will have precednet over other.
 
 Once you define the keys, Azure DevOps will take care of getting them from respective soruces. Any vaules coming from Key Vault will not be displayed as simple text at any point of time and can only be updatd by the users who have RBAC permission inside Key vault access policies.
+
+![ ](https://media1.giphy.com/media/JpGRoqJXTqv4f1mrJb/100.webp?cid=ecf05e47d6cfd92788dfc2cd326e5a4af621da17e69257b7&rid=100.webp)
