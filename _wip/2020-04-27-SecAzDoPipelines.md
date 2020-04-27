@@ -210,7 +210,7 @@ steps:
 
 ![KV Task2](/images/posts/azdo/kvoutput22.JPG)
 
-I prefer to use the second approach. It's very useful especially when you have to move the pipeline to other DevOps organizations or projects.
+I recommend the second approach as its part of the Pipeline code. It's very useful especially when you have to move the pipeline to other DevOps organizations or projects.
 
 I hope this post will help you understand how to leverage Azure Key Vault with Azure Pipeline.
 Do let me know if you have any questions or suggestions.
