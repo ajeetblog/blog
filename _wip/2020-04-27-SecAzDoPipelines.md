@@ -8,7 +8,7 @@ categories: [Azure, DevOps]
 author: Ajeet
 ---
 
-## Secure your secrets in Azure DevOps Pipelines using Azure Key Vault  
+## Secure secretes in Azure DevOps Pipelines using Azure Key Vault  
 
 Security is an integral part of the Application Life Cycle Management and must be implemented right from the beginning. Its everyone's responsibility to ensure security compliance in every process and each phase.
 
@@ -191,7 +191,7 @@ variables:
 steps:
 - task: AzureKeyVault@1
   inputs:
-    azureSubscription: 'Visual Studio Professional with MSDN (e312da93-8cef-4a40-a25a-cf959470fe63)'
+    azureSubscription: 'Visual Studio Professional with MSDN '
     KeyVaultName: 'kvpipeline'
     SecretsFilter: '*'
 
