@@ -214,5 +214,3 @@ I recommend the second approach as its part of the Pipeline code. It's very usef
 
 I hope this post will help you understand how to leverage Azure Key Vault with Azure Pipeline.
 Do let me know if you have any questions or suggestions.
-
-![ ](https://media1.giphy.com/media/JpGRoqJXTqv4f1mrJb/100.webp?cid=ecf05e47d6cfd92788dfc2cd326e5a4af621da17e69257b7&rid=100.webp)
