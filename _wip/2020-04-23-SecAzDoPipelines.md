@@ -66,8 +66,7 @@ Variable groups are also used to store secrets and other values that might need 
 
 3. Select Subscription and Key Vault: You need to authroize the subscription. 
 
-![Link kv](/images/posts/azdo/kvpipeline3.JPG)
-
+![Link kv](/images/posts/azdo/linkkv.JPG)
 
 4. Select and authorize the Key Vault, this action will create a service principal and it to Key Vault access policies with Get and List permission only.
 
