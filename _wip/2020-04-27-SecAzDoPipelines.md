@@ -50,7 +50,7 @@ You can choose one of the following approach to integrate Azure Key Vault with p
 
 ### Variable Groups
 
-The variable groups store values that you want to control and make available across multiple pipelines. 
+The variable groups store values that you want to control and make available across multiple pipelines.
 
 Variable groups are also used to store secrets and other values that might need to be passed into a YAML pipeline. Variable groups are defined and managed in the Library page under Pipelines.
 
@@ -74,8 +74,7 @@ Variable groups are also used to store secrets and other values that might need 
 
 ![filter](/images/posts/azdo/filter.JPG)
 
-6. Create Pipeline\
-*for this demo, I have choosen the default starter pipeline.*
+6. Create Pipeline [*for this demo, I have choosen the default starter pipeline.*]
 
 ```YML
 # Starter pipeline
@@ -101,7 +100,7 @@ steps:
 
 To integrate the pipeline with Variable group, you need to add variables in the pipeline
 
-Under variables section, added group and local variables. 
+Under variables section, added group and local variables.
 > Learn more [variables in YML pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch)
 
 ```YML
@@ -122,20 +121,92 @@ variables:
     value: 'Hello World'
     
 steps:
-- script: |
-    echo Local variable
-    echo $(local)
-  displayName: 'Local Variables'
 
 - script: |
+    echo Local Variable
+    echo $(local)
     echo Secure value from KV
     echo Key 1 $(key1)
     echo Key 2 $(key2)
-  displayName: 'Secure Variables'
+  displayName: 'Variables'
+
 ```
 
 While defining the variables name, you need to ensure that they are not repeated. In case of duplicate Keys, last one will have precednet over other.
 
 Once you define the keys, Azure DevOps will take care of getting them from respective soruces. Any vaules coming from Key Vault will not be displayed as simple text at any point of time and can only be updatd by the users who have RBAC permission inside Key vault access policies.
+
+#### Pipeline Output
+
+![VG Task1](/images/posts/azdo/kvoutput11.JPG)
+
+![VG Task2](/images/posts/azdo/kvoutput12.JPG)
+
+### Azure Key Vault Task
+
+Unlike previous approch you need not to create variable group and link Key Vault manually (steps #2 to #5).
+
+You need to make some changes to your pipeline code.
+
+a. Go to Azure DevOps Project Settings - Service Connection - Select Service Connection - Manage Service Principal
+
+![Service Princiapl](/images/posts/azdo/kvservicepri.JPG)
+
+b. Add Service principal to Key Vault access policy with List and Get perissions only. To get the Service principal refer the service connetion name that you using in pipeline.
+
+![Add Access](/images/posts/azdo/addaccess.JPG)
+
+![Access Policy](/images/posts/azdo/accesspol.JPG)
+
+c. Following task will link the Azure Key Vault with pipeline. Subsequent task can refer the keys.
+
+```YML
+steps:
+- task: AzureKeyVault@1
+  inputs:
+    azureSubscription: 'Visual Studio Professional with MSDN' 
+    KeyVaultName: 'kvpipeline'
+    SecretsFilter: '*'
+```
+
+#### Complete Code
+
+```YML
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+# variables to support local and Variable group
+variables:
+  - name: local
+    value: 'Hello World'
+    
+steps:
+- task: AzureKeyVault@1
+  inputs:
+    azureSubscription: 'Visual Studio Professional with MSDN (e312da93-8cef-4a40-a25a-cf959470fe63)'
+    KeyVaultName: 'kvpipeline'
+    SecretsFilter: '*'
+
+- script: |
+    echo Local Variable
+    echo $(local)
+    echo Secure value from KV
+    echo Key 1 $(key1)
+    echo Key 2 $(key2)
+  displayName: 'Variables'
+```
+
+#### Pipeline Output
+
+![KV Task1](/images/posts/azdo/kvoutput21.JPG)
+
+![KV Task2](/images/posts/azdo/kvoutput22.JPG)
 
 ![ ](https://media1.giphy.com/media/JpGRoqJXTqv4f1mrJb/100.webp?cid=ecf05e47d6cfd92788dfc2cd326e5a4af621da17e69257b7&rid=100.webp)
