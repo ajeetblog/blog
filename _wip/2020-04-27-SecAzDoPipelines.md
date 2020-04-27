@@ -145,7 +145,7 @@ Once you define the keys, Azure DevOps will take care of getting them from respe
 
 Unlike the previous approach, you are not creating a variable group and link Key Vault manually (steps #2 to #5).
 
-You have to make the following changes
+**You have to make the following changes:**
 
 a. Go to Azure DevOps Project Settings - Service Connection - Select Service Connection - Manage Service Principal
 
@@ -216,4 +216,3 @@ I hope this post will help you understand how to leverage Azure Key Vault with A
 Do let me know if you have any questions or suggestions.
 
 ![ ](https://media1.giphy.com/media/JpGRoqJXTqv4f1mrJb/100.webp?cid=ecf05e47d6cfd92788dfc2cd326e5a4af621da17e69257b7&rid=100.webp)
-
