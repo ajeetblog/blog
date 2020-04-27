@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Secure your secretes in Azure DevOps Pipelines
+title: Secure secretes in Azure DevOps Pipelines
 description: "Securing Azure DevOps Pipelines using Key Vault"
 modified: 2020-04-27
 tags: [ Azure, YML Pipelines, KeyVault, AZ-400]
@@ -8,7 +8,7 @@ categories: [Azure, DevOps]
 author: Ajeet
 ---
 
-## Secure your secretes in Azure DevOps Pipelines using Azure Key Vault  
+## Secure your secrets in Azure DevOps Pipelines using Azure Key Vault  
 
 Security is an integral part of the Application Life Cycle Management and must be implemented right from the beginning. Its everyone's responsibility to ensure security compliance in every process and each phase.
 
@@ -20,15 +20,15 @@ In this post, I will talk on how to ensure security in terms of ***Key, Secrete,
 
 CI CD pipeline pushes your app into different environments, but as a good DevSecOps architect, you wanted to ensure **separation of concern and responsibilities**. *If secrets are stored in code in an appsettings.json file, for example, then you're creating a security risk*.
 
-## Follow Sepration of Concern principal
+## Follow Separation of Concern principal
 
 To ensure security compliance and less management overhead, you need to store sensitive information into a different component.  By design, this component is responsible for storing and securely retrieving information. 
 
-### Store Senstive Information away from Pipeline
+### Store Sensitive Information away from Pipeline
 
-Azure Key Vault allows you to manage the separation of concern using industry-standard security practices. 
+Azure Key Vault allows you to manage the separation of concern using industry-standard security practices.
 
-Some of the features are: 
+Some of the features are:
 
 - **Secrets Management** - Azure Key Vault can be used to Securely store and tightly control access to tokens, passwords, certificates, API keys, and other secrets.
 
@@ -42,7 +42,7 @@ Some of the features are:
 
 ### Let's Start
 
-You can choose one of the following approach to integrate Azure Key Vault with pipelines.
+You can choose one of the following approaches to integrate Azure Key Vault with pipelines.
 
 - [**Variable groups**](#variables-groups)
 
@@ -58,23 +58,23 @@ Variable groups are also used to store secrets and other values that might need 
 
 ![Create KV Secrets](/images/posts/azdo/keyvault.JPG)
 
-2. Create variable group and enable the Key Vault linking
+2. Create a variable group and enable the Key Vault linking.
 
 ![Create Variable Group](/images/posts/azdo/linkkv.JPG)
 
-3. Select Subscription and Key Vault: You need to authroize the subscription. 
+3. Select Subscription and Key Vault: You need to authorize the subscription.
 
 ![Link kv](/images/posts/azdo/kvpipeline3.JPG)
 
-4. Select and authorize the Key Vault, this action will create a service principal and it to Key Vault access policies with Get and List permission only.
+4. You have to select and authorize the Key Vault. This action will create a service principal and add to Key Vault access policies with **'Get' and 'List' permissions only**.
 
 ![authorize](/images/posts/azdo/selectkv.JPG)
 
-5. Select the keys that you wanted to be avaiable for pipeline as variable.
+5. Select the keys that you wanted to be available for the pipeline as a variable.
 
 ![filter](/images/posts/azdo/filter.JPG)
 
-6. Create Pipeline [*for this demo, I have choosen the default starter pipeline.*]
+6. Create Pipeline [*for this demo, I have chosen the default starter pipeline.*]
 
 ```YML
 # Starter pipeline
@@ -98,9 +98,8 @@ steps:
   displayName: 'Run a multi-line script'
 ```
 
-To integrate the pipeline with Variable group, you need to add variables in the pipeline
+To integrate the pipeline with a Variable group, you need to add the variables section in the pipeline code.
 
-Under variables section, added group and local variables.
 > Learn more [variables in YML pipelines](https://docs.microsoft.com/en-us/azure/devops/pipelines/process/variables?view=azure-devops&tabs=yaml%2Cbatch)
 
 ```YML
@@ -132,9 +131,9 @@ steps:
 
 ```
 
-While defining the variables name, you need to ensure that they are not repeated. In case of duplicate Keys, last one will have precednet over other.
+While defining the variable's name, you have to ensure that they are not repeated. In the case of duplicate keys, the last one has precedence over others.
 
-Once you define the keys, Azure DevOps will take care of getting them from respective soruces. Any vaules coming from Key Vault will not be displayed as simple text at any point of time and can only be updatd by the users who have RBAC permission inside Key vault access policies.
+Once you define the keys, Azure DevOps will take care of getting them from respective sources. Any values coming from Key Vault will not be displayed as simple text at any point in time and can only be updated by the users who have RBAC permission inside Key vault access policies.
 
 #### Pipeline Output
 
@@ -144,15 +143,15 @@ Once you define the keys, Azure DevOps will take care of getting them from respe
 
 ### Azure Key Vault Task
 
-Unlike previous approch you need not to create variable group and link Key Vault manually (steps #2 to #5).
+Unlike the previous approach, you are not creating a variable group and link Key Vault manually (steps #2 to #5).
 
-You need to make some changes to your pipeline code.
+You have to make the following changes
 
 a. Go to Azure DevOps Project Settings - Service Connection - Select Service Connection - Manage Service Principal
 
 ![Service Princiapl](/images/posts/azdo/kvservicepri.JPG)
 
-b. Add Service principal to Key Vault access policy with List and Get perissions only. To get the Service principal refer the service connetion name that you using in pipeline.
+b. Add Service principal to Key Vault access policy with List and Get permissions only. To get the Service principal to refer to the service connection name that you using in the pipeline.
 
 ![Add Access](/images/posts/azdo/addaccess.JPG)
 
@@ -160,7 +159,7 @@ b. Add Service principal to Key Vault access policy with List and Get perissions
 
 ![Post Add](/images/posts/azdo/postadd.JPG)
 
-c. Following task will link the Azure Key Vault with pipeline. Subsequent task can refer the keys.
+c. The following task will link the Azure Key Vault with the pipeline. The subsequent task can refer to the keys.
 
 ```YML
 steps:
@@ -211,4 +210,10 @@ steps:
 
 ![KV Task2](/images/posts/azdo/kvoutput22.JPG)
 
+I prefer to use the second approach. It's very useful especially when you have to move the pipeline to other DevOps organizations or projects.
+
+I hope this post will help you understand how to leverage Azure Key Vault with Azure Pipeline.
+Do let me know if you have any questions or suggestions.
+
 ![ ](https://media1.giphy.com/media/JpGRoqJXTqv4f1mrJb/100.webp?cid=ecf05e47d6cfd92788dfc2cd326e5a4af621da17e69257b7&rid=100.webp)
+
