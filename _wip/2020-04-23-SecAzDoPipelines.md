@@ -60,22 +60,24 @@ Variable groups are also used to store secrets and other values that might need 
 
 ![Create KV Secrets](/images/posts/azdo/keyvault.JPG)
 
-2. Create a Variable Group
- 
- 2.1  Create variable group and enable    
+2. Create variable group and enable the Key Vault linking
+
 ![Create Variable Group](/images/posts/azdo/linkkv.JPG)
 
-  2.2 Select Subscription and Key Vault: You need to authroize the subscription. 
+3. Select Subscription and Key Vault: You need to authroize the subscription. 
+
 ![Link kv](/images/posts/azdo/kvpipeline3.JPG)
 
 
-Select and authorize the Key Vault, this action will create a service principal and it to Key Vault access policies with Get and List permission only.
+4. Select and authorize the Key Vault, this action will create a service principal and it to Key Vault access policies with Get and List permission only.
+
 ![authorize](/images/posts/azdo/selectkv.JPG)
 
-Now you can select the keys that you wanted to be avaiable for pipeline as variable.
+5. Now you can select the keys that you wanted to be avaiable for pipeline as variable.
+
 ![filter](/images/posts/azdo/filter.JPG)
 
-3. Create Pipeline\
+6. Create Pipeline\
 *for this demo, I have choosen the default starter pipeline.*
 
 ```YML
