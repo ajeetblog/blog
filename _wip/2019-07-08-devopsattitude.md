@@ -8,6 +8,7 @@ The project defines the staffing requirement or onboard engineers as a 'DevSecOp
 ***
 
 **DevSecOps is not a role
+
 it's a philosophy... it's a culture...**
 
 ***
