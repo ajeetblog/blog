@@ -1,8 +1,8 @@
-DevOps is not meant to fail until **Process and Product backed by People with the right attitude and continuous improvement by continuous learning**.
+DevSecOps is not meant to fail until **Process and Product backed by People with the right attitude and continuous improvement by continuous learning**.
 It's not much important how you have started your journey but how consistently you improve.
 
 
-## DevOps is not a role
+## DevSecOps is not a role
 Generally, in a project, you define the staffing requirement or onboard engineers as a 'DevSecOps Engineers' with relevant skills and experience to implement DevSecOps road map. But always remember
 ***
 **DevSecOps is not a role... it's a philosophy... it's a culture...**
