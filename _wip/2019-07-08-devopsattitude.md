@@ -10,7 +10,9 @@ You can start the project by considering DevSecOps as a role during the initial 
 
 You have to plan the transition to all the team members (also involved stakeholders as and when required) by DevSecOps SMEs in all the areas (right from continuous planning to continuous feedback). This will not only help team members to *take responsibility and perform all the required actions in their day to day work*, but also **improves the Project DevSecOps maturity level**.
 
-Improvement of DevSecOps **maturity** is one of the **key matrics** for the stakeholders. Continuous improvement in the DevSecOps maturity helps to build confidence in terms of planning, costing, and most importantly reduce the time to the customer. Believe me or not in today's world **time to the customer is a matter of survival for business**.
+Improvement of DevSecOps **maturity** is one of the **key matrics** for the stakeholders. Continuous improvement in the DevSecOps maturity helps to *build confidence in terms of planning, costing*, and most importantly **reduce the time to the customer**. 
+
+Believe me or not in today's world **time to the customer is a matter of survival for business**.
 
 Attitude
 
