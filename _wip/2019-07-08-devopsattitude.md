@@ -3,8 +3,7 @@ It's not much important how you have started your journey but how consistently y
 
 
 ## DevOps is not a role
-The project defines the staffing requirement or onboard engineers as a 'DevSecOps Engineers' with relevant skills and experience to implement DevSecOps road map of their project.
-
+Generally, in a project, you define the staffing requirement or onboard engineers as a 'DevSecOps Engineers' with relevant skills and experience to implement DevSecOps road map. But always remember
 ***
 **DevSecOps is not a role... it's a philosophy... it's a culture...**
 ***
