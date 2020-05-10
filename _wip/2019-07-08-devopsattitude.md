@@ -3,7 +3,7 @@ It's not much important how you have started your journey but how consistently y
 
 
 ## DevOps is not a role
-The project defines the staffing requirement or/ onboard engineers as a 'DevSecOps Engineer' who have skills and experience in CI-CD and other tools to support DevOps road map of their project.
+The project defines the staffing requirement or onboard engineers as a 'DevSecOps Engineers' with relevant skills and experience to implement DevSecOps road map of their project.
 
 ***
 
