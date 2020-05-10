@@ -6,7 +6,7 @@ Generally, in a project, you define the staffing requirement or onboard engineer
 ***
 **DevSecOps is not a role... it's a philosophy... it's a culture...**
 ***
-You can start the project by considering DevSecOps as a role during the initial phase of DevSecOps implementation in the project.  As this journey progress, you start focusing on ***Doing things right rather than only doing the right things***.
+You can start the project by considering DevSecOps as a role during the initial phase.  But as this journey progress, you need to start focusing on ***Doing things right rather than only doing the right things***.
 
 You have to plan the transition to all the team members (also involved stakeholders as and when required) by DevSecOps SMEs in all the areas (right from continuous planning to continuous feedback). This will not only help team members to *take responsibility and perform all the required actions in their day to day work*, but also **improves the Project DevSecOps maturity level**.
 
