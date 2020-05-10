@@ -1,4 +1,4 @@
-DevSecOps is not meant to fail until Process, Product backed by People with the right attitude followed by continuous learning and improvement. It's not very important how the journey starts but how consistently it improved over time.
+DevSecOps is not meant to fail until **Process, Product backed by People** with the **right attitude followed by continuous learning and improvement**. It's not very important how the journey starts but how consistently it improved over time.
 
 
 ## DevSecOps is not a role
