@@ -14,6 +14,8 @@ Improvement of DevSecOps **maturity** is one of the **key matrics** for the stak
 
 Believe me or not in today's world **time to the customer is a matter of survival for business**.
 
+> Consider **DevSecOps as a shared responsibility** and needs to be **owned** by all the members irrespective of pay grades and skills.
+
 Attitude
 
 
