@@ -8,6 +8,6 @@ categories: [Cloud]
 author: Ajeet
 ---
 Easy way to automate many workflows that you have in place, without writing a single line of code :)
-
+AAA
 With logic apps your company work more smarter and  by working more efficently. pay what you use cost model more popular
 Let's start...
