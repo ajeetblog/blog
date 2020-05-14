@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn Terraform Day 1
+title: Learn Terraform - 1
 description: "Terraform Learning Notes"
 modified: 2019-11-27
 tags: [Terraform, IaC]
