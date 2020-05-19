@@ -48,4 +48,8 @@ and dependencies but not help you to understand the deployment
 outcome.
 
 
+---
+Learn more about Terraform
+
+---
 [![Terraform Youtube Playlist](http://img.youtube.com/vi/ACEGuKOYMDY/0.jpg)](https://www.youtube.com/playlist?list=PLewiy-6D3jhpKr3B9UX7Jddt_t9tobhyu)
