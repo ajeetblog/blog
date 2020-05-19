@@ -46,3 +46,6 @@ unwanted actions that might cause service disruptions. ARM
 templates 'validate' commands only helps you to validate the syntax 
 and dependencies but not help you to understand the deployment
 outcome.
+
+
+[![Terraform Youtube Playlist](http://img.youtube.com/vi/ACEGuKOYMDY/0.jpg)](https://www.youtube.com/playlist?list=PLewiy-6D3jhpKr3B9UX7Jddt_t9tobhyu)
