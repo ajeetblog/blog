@@ -52,4 +52,4 @@ outcome.
 Learn more about Terraform
 
 ---
-[![Terraform Youtube Playlist](/images/others/learnterraform.jog)](https://www.youtube.com/playlist?list=PLewiy-6D3jhpKr3B9UX7Jddt_t9tobhyu)
+[![Terraform Youtube Playlist](/images/others/learnterraform.jpg)](https://www.youtube.com/playlist?list=PLewiy-6D3jhpKr3B9UX7Jddt_t9tobhyu)
