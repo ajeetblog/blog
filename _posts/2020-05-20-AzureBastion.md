@@ -3,7 +3,7 @@ layout: post
 title: Azure Bastion
 description: "Private and fully managed remote access to your virtual machines"
 modified: 2020-05-20
-tags: [Azure]
+tags: [Azure, AzureExam]
 categories: [Azure]
 author: Ajeet
 ---
