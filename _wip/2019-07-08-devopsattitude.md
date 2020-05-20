@@ -1,13 +1,13 @@
-DevSecOps is not meant to fail until **Processes, Products backed by People** with the **right attitude followed by continuous learning and improvement**. It's not very important how the journey starts but how consistently it improved over time.
+DevSecOps is not meant to fail if **Processes, Products backed by People** with the **right attitude followed by continuous learning and improvements**. It's not very important how the journey starts but how consistently it improved over time.
 
 ### Attitude
 Attitude is everything and the same applies when you implement the DevSecOps.
 
-### DevSecOps is not a role
+### DevSecOps is not a role 
 
 Generally, in a project, you define the staffing requirement or onboard engineers as a 'DevSecOps Engineers' with relevant skills and experience to implement DevSecOps road map. But always remember
 ***
-**DevSecOps is not a role... it's a philosophy... it's a culture...**
+**DevSecOps is not a role... it's a Philosophy... it's a Culture... it's Attitude**
 ***
 You can start the project by considering DevSecOps as a role during the initial phase.  But as this journey progress, you need to start focusing on ***Doing things right rather than only doing the right things***.
 
@@ -20,6 +20,8 @@ Believe me or not in today's world **time to the customer is a matter of surviva
 > **DevSecOps as a shared responsibility** and it needs to be **owned** by all the members irrespective of roles, responsiblities and skills.
 
 ### Open by default, closed by exception 
+
+Its a debate that is as old as the information management industry itself. B
 
 ### Product Owner 
 
