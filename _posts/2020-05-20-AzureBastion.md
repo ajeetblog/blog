@@ -55,6 +55,6 @@ It's fully managed PaaS service that provides secure and seamless RDP and SSH ac
 ---
 
 
-![](/images/posts/azure/azurebastion.JPG)
+![](/images/posts/azure/azurebastion.jpg)
 
 *image credit **Microsoft***
