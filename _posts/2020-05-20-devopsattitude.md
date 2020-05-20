@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DevOps Attitude
-description: "Concepts and Principal that helps to lay the foundation of success"
+description: "Concepts and Principal that helps to lay the foundation for success"
 modified: 2020-05-20
 tags: [DevOps]
 categories: [DevOps]
