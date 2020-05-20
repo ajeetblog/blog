@@ -45,7 +45,7 @@ You can connect to remote VMs using the following method:
 
     *image credit [**Microsoft**](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/identity/adds-extend-domain)*
 
-Azure Bastion is the solution for you to address all the issues and reduce the management overhead.
+**Azure Bastion is the solution for you to address all the issues and reduce the management overhead.**
 
 It's fully managed PaaS service that provides secure and seamless RDP and SSH access to your virtual machines directly through the Azure Portal. 
 
