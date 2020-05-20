@@ -13,10 +13,6 @@ production: true
 
 DevSecOps is not meant to fail if **Processes, Products backed by People** with the **right attitude followed by continuous learning and improvements** is in place. It's not very important how the journey starts but how consistently it improved over time.
 
-![](/images/posts/azdo/attitude.JPG)
-
-*image credit: [Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops-culture)*
-
 There are a lot of fundamental principals that need to consider while you are defining the Organizations DevOps road map. But in my opinion, the following two lay the foundation of success.
 
 * DevSecOps is not a Role
@@ -24,7 +20,9 @@ There are a lot of fundamental principals that need to consider while you are de
   
 <!--more-->
 
+![](/images/posts/azdo/attitude.JPG)
 
+*image credit: [Microsoft](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops-culture)*
 
 ### DevSecOps is not a Role 
 
