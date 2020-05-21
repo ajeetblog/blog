@@ -11,7 +11,7 @@ production: true
 
 Organizations always have issues and concerns that how to remove the risk of threats and malware attacks when users connect to VMs (using RDP or SSH) inside the network.
 
-Azure Bastionnot only helps you to address these issues, but also reduce the lot of managment overhead. In this post we will discuss the concepts and how to configure it.
+Azure Bastion not only helps you to address these issues, but also reduce the lot of managment overhead. In this post we will discuss the concepts and how to configure it.
 
 <!--more-->
 
@@ -31,7 +31,7 @@ You can connect to remote VMs using the following method:
 
     >These hacks help you to bypass the policies and connect with the VMs but create a serious security risk.
 
-2. **The other better option Organization have is use the Jump box as an entry point for Remote Desktop connections**.
+2. **The other better option Organization have is to use the Jump box as an entry point for Remote Desktop connections**.
 
     VMs in your customer network perimeter will not have a public IP associated with RDP access. This at-least addresses the concern of exposing VMs directly over the Internet. 
 
