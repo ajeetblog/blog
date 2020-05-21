@@ -36,7 +36,7 @@ You can connect to remote VMs using the following method:
 
     Only Jump box will have the public IP which allows the remote desktop connections. Once you are inside the jump box you can connect VM using private IP. It's like a remote session inside another remote session.
 
-    >Sometimes it slows down the connections and moreover, you need to own all the management overhead for this box (e.g. patch management, security management, etc.)
+    >Sometimes it slows down the connections and moreover, you need to own all the management overhead for this box (e.g. patch management, security management, etc.). **You still have security risks**.
 
     The following diagram shows an example of the Azure Jump box.
 
