@@ -75,7 +75,7 @@ Demo to configure Azure Bastion
 
 [![Terraform Youtube Playlist](/images/others/azurebastionyt.jpg)]()
 
-**image credit: **Microsoft***
+*image credit: **Microsoft***
 
 
 [Refer to the MS Doc for the latest updates](https://azure.microsoft.com/en-in/services/azure-bastion/#documentation)
