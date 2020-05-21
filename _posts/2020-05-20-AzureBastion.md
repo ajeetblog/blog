@@ -6,6 +6,7 @@ modified: 2020-05-20
 tags: [Azure, AzureExam]
 categories: [Azure]
 author: Ajeet
+production: false
 ---
 
 Organizations always have issues and concerns that how to remove the risk of threats and malware attacks when users connect to VMs (using RDP or SSH) inside the network.
