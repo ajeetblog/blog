@@ -2,11 +2,11 @@
 layout: post
 title: Azure Bastion
 description: "Private and fully managed remote access to your virtual machines"
-modified: 2020-05-20
+modified: 2020-05-21
 tags: [Azure, AzureExam]
 categories: [Azure]
 author: Ajeet
-production: false
+production: true
 ---
 
 Organizations always have issues and concerns that how to remove the risk of threats and malware attacks when users connect to VMs (using RDP or SSH) inside the network.
@@ -59,13 +59,8 @@ It's fully managed PaaS service that provides secure and seamless RDP and SSH ac
 
 Internally Azure Bastion uses the VM scale set to manage the session requests. Also, **it always uses the VM public IP for remote sessions even if your VM has public IP**.
 
-Fol
 
-![](/images/posts/azure/azurebastion.jpg)
-
-*image credit **Microsoft***
-
-The above diagram shows how Azure Bastion handles the client's session request. 
+> How Azure Bastion handles the client's session request. 
 
 * Client requests for the remote session using Azure Portal (at this point of time no support for native application e.g. MSTSC, but you can expect that in future).
 
@@ -78,7 +73,15 @@ Azure bastion act as a broker. It establishes the remote session with the VM usi
 
 Demo to configure Azure Bastion
 
-[![Terraform Youtube Playlist](/images/posts/azure/azurebastion.jpg)](https://www.youtube.com/playlist?list=PLewiy-6D3jhpKr3B9UX7Jddt_t9tobhyu)
+[![Terraform Youtube Playlist](/images/others/azurebastionyt.jpg)]()
+
+**image credit: **Microsoft***
 
 
-Refer to the MS Doc for the latest updates.
+[Refer to the MS Doc for the latest updates](https://azure.microsoft.com/en-in/services/azure-bastion/#documentation)
+
+
+---
+You might have question/ suggestion. Please do let me know using Disqus section.
+
+---
