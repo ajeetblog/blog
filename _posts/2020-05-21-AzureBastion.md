@@ -11,7 +11,7 @@ production: true
 
 Organizations always have issues and concerns that how to remove the risk of threats and malware attacks when users connect to VMs (using RDP or SSH) inside the network.
 
-Azure Bastion not only helps you to address these issues, but also reduce the lot of managment overhead. In this post we will discuss the concepts and how to configure it.
+Azure Bastion not only helps you to address these issues, but also reduce the lot of management overhead. In this post we will discuss the concepts and how to configure it.
 
 <!--more-->
 
@@ -64,7 +64,7 @@ Internally Azure Bastion uses the VM scale set to manage the session requests. A
 
 * Client requests for the remote session using Azure Portal (at this point of time no support for native application e.g. MSTSC, but you can expect that in future).
 
-* The client connects Azure Basting using HTTPs. 
+* The client connects Azure Bastion using HTTPs. 
 Azure bastion act as a broker. It establishes the remote session with the VM using private IP.
 
 * It initiates the RDP session within the Customer VNET. RDP packets never go into the public network.
@@ -73,7 +73,7 @@ Azure bastion act as a broker. It establishes the remote session with the VM usi
 
 Demo to configure Azure Bastion
 
-[![Terraform Youtube Playlist](/images/others/azurebastionyt.jpg)]()
+[![Terraform Youtube Playlist](/images/others/azurebastionyt.jpg)](https://youtu.be/Usrv3r6NRSM)
 
 *image credit: **Microsoft***
 
