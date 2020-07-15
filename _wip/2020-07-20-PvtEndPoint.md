@@ -7,3 +7,5 @@ tags: [ Azure, AZ-300, AZ-303, Az-301]
 categories: [Azure]
 author: Ajeet
 ---
+
+## Service Endpoint v/s Private Endpoint 
