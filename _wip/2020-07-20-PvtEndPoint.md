@@ -7,5 +7,4 @@ tags: [ Azure, AZ-300, AZ-303, Az-301]
 categories: [Azure]
 author: Ajeet
 ---
-
-## Service Endpoint v/s Private Endpoint 
+ "Moving to the cloud or Journey to the cloud" is the topmost priority of the Enterprise these days. The demand for Cloud adoption is continuously increasing. However, the biggest concern with moving to Public Cloud is SECURITY. Microsoft Azure is improving the SECURITY features within the services between the services.
