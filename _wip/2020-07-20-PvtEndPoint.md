@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Private Endpoint and Private link Resources
-description: "Enhance Azure PaaS services security by using Azure Private Endpoint"
-modified: 2020-05-02
+title: Privatley connect with Azure Resources
+description: "Privatley connect with Azure Resources"
+modified: 2020-10-10
 tags: [ Azure, AZ-300, AZ-303, Az-301]
 categories: [Azure]
 author: Ajeet
