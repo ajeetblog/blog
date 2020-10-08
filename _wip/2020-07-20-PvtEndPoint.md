@@ -1,13 +1,16 @@
 ---
 layout: post
-title: Privatley connect with Azure Resources
+title: Secure and Govern Workloads Connecitivity 
 description: "Privatley connect with Azure Resources"
 modified: 2020-10-10
 tags: [ Azure, AZ-300, AZ-303, Az-301]
 categories: [Azure]
 author: Ajeet
 ---
-"Moving to the cloud or Journey to the cloud" is the topmost priority of the Enterprise these days. The demand for Cloud adoption is continuously increasing. However, the biggest concern with moving to Public Cloud is SECURITY. Microsoft Azure is improving the SECURITY features within the services and between the services.
+"Moving to the cloud or Journey to the cloud" is the topmost priority of the Enterprise these days. The demand for Cloud adoption is continuously increasing. However, the public cloud is SECURITY is one of the biggest concerns for the clients ( How to Secure and govern workloads connectivities). 
+In this post, we will discuss various segmentation patters provided by Microsoft to address such concerns.
+
+<!-- more -->
 
 Consider the use case where Enterprise has started its Journey to Cloud by migrating their existing apps to the cloud (as-is) or re-design the apps (if not possible to migrate as-is) as Cloud Native apps. Also, planning to leverage the PaaS services where ever possible. 
 
@@ -15,15 +18,14 @@ Consider the use case where Enterprise has started its Journey to Cloud by migra
 
 The client has asked you to address the following connectivity architecture concerns. 
 
-1. Provide role-based network segmentation with control over the resources connectivity. 
-2. Connectivity between VNETs. But access to Azure Resources (IaaS and PaaS) from on-prem to Azure or between the VNETs must be private (any communication over the public internet is restricted).
-3. Setup secure private connectivity between On-prem - Azure 
+1. Provide network segmentation with control over the resources connectivity. 
+2. Setup secure connectivity between On-prem - Azure without going over the internet.
+3. Access to Azure Resources (IaaS and PaaS) from on-prem to Azure or between the VNETs must be private (any communication over the public internet is restricted).
 
-There are various reference patterns provided by Microsoft that will help you address connectivity concerns.
+There are various segmentation patterns provided by Microsoft that will help you to address connectivity concerns.
 
-VNET segmentation with the Network Security Group (NSG) is the first step in this direction. With NSG rules, you can control internal and external connectivity. 
+## Segmentation Patterns
 
-Site-to-Site (S2S) VPN feature helps to set up secure connectivity between the On-Prem and Azure using IPSec Tunnel. But still, there are concerns as to it goes over the public internet.
-VNET segmentation with the Network Security Group (NSG) is the first step in this direction. With NSG rules, you can control internal and external connectivity. 
+Segmentation is a model in which you take your networking footprint and create software-defined perimeters using the different tools available as part of Azure's offerings. You then set rules that govern the traffic from/to these perimeters so that you can have different security postures for your network.
 
-Site-to-Site (S2S) VPN feature helps to set up secure connectivity between the On-Prem and Azure using IPSec Tunnel. But still, there are concerns as to it goes over the public internet.
+![](../images/posts/azure/segpatterns.JPG)
