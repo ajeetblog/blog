@@ -34,5 +34,9 @@ How it works
 
 
 
+[Watch in Action]()
+
+[Lab Link](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC.md)
+
 
 #rbac #cloudsecurity #accessmanagement #az-104
