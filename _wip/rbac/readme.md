@@ -7,3 +7,13 @@ tags: [Azure, RBAC, CloudSecurity]
 categories: [Azure]
 author: Ajeet
 ---
+
+
+
+
+
+
+
+
+
+#rbac #cloudsecurity #accessmanagement #az-104
