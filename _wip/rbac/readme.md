@@ -32,7 +32,19 @@ How it works
 ```
 
 
+```JSON
 
+/subscriptions
+    /{subscriptionId}
+        /resourcegroups
+            /{resourceGroupName}
+                /providers
+                    /{providerName}
+                        /{resourceType}
+                            /{resourceSubType1}
+                                /{resourceSubType2}
+                                    /{resourceName}
+ ```
 
 [Watch in Action]()
 
