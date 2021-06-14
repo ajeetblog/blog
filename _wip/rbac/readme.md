@@ -9,8 +9,27 @@ author: Ajeet
 ---
 
 
+Define Zero trust
 
+What is RBAC
 
+How it works
+
+```json
+"Actions": [
+    "*"
+],
+"NotActions": [
+    "Authorization/*/Delete",
+    "Authorization/*/Write",
+    "Authorization/elevateAccess/Action",
+],
+"DataActions": [ ],
+"NotDataActions" : [ ],
+"AssignableScopes": [
+    "/"
+]
+```
 
 
 
